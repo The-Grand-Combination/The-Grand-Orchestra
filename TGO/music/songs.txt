@@ -146,7 +146,7 @@ song = {
 		modifier = { factor = -1 war = yes }
 		modifier = { factor = -1 has_country_flag = exclusive_music }
 		
-		modifier = {            #This is sad and slow, so it will more often when war exhaustion is high after a war
+		modifier = {            # This is sad and slow, so it will more often when war exhaustion is high after a war
 			factor = 5
 			war_exhaustion = 20
 		}
@@ -175,7 +175,7 @@ song = {
 	}
 } 
 
-# Why don't Germany gets Offenbach more often, or maybe France with Maurice Ravel? You may ask
+# Why don't Germany/France gets Offenbach more often, or maybe France with Maurice Ravel? You may ask
 # Those are not as often associated with their respective countries as much as Villa Lobos is to Brazil,
 # or Wagner to Germany.
 
@@ -185,7 +185,7 @@ song = {
 # once the mod has enough music. But not yet.
 
 song = {                                                               
-	name = "Offenbach - Duo for Two Cellos - Allegreto.mp3"
+	name = "Peace/Offenbach - Duo for Two Cellos - Allegreto.mp3"
 	chance = {
 		modifier = { factor = 1 }
 		modifier = { factor = -1 war = yes }
@@ -231,17 +231,7 @@ song = {
 		modifier = { factor = -1 has_country_flag = exclusive_music }
 
 		modifier = { factor = -1 
-					 is_greater_power = no}  #This part sounds way too epic, so Great Power only
-
-	}
-}
-
-song = {
-	name = "Peace/Maurice Ravel - Bolero - 1.mp3"
-	chance = {
-		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		modifier = { factor = -1 has_country_flag = exclusive_music }
+					 is_greater_power = no}  # This part sounds way too epic, so Great Power only
 
 	}
 }
@@ -294,17 +284,17 @@ song = {
 }
 
 song = {
-	name = "Germany/Wagner - Ride of the Valkyries.mp3"
+	name = "War/Wagner - Ride of the Valkyries.mp3"
 	chance = {
 		modifier = {
-			factor = 0.1     #This one is way too gliche, but it's too good not to have
+			factor = 0.1     # This one is way too gliche, but it's too good not to have
 			war = yes
 		}
 		modifier = {
 			factor = -1
 			war = no
 		}
-		modifier = {  
+		modifier = {        
 			factor = 1.5
 			tag = GER
 		}
