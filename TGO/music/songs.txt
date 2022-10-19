@@ -1,0 +1,695 @@
+# Silences
+
+# For reasons unknow to man, if there are less than 7 songs for any given occasion, the game wont properly play said songs.
+# They will only play once and never loop, I believe the game is still trying to make a full playlist, which has to have at least 7 songs,
+# and so, the unfinished playlist glitches out and the game goes silence.
+# Those 7 silence mp3s are here to ensure the game has at least 7 things to play, I'm 100% sure this will never happen, but who knows all the edge cases...
+# And yes, they will some times play during normal gameplay, but it's fine, it's actually good to have moments of silence from time to time
+
+song = {
+	name = "Silence 1.mp3"
+	chance = {
+		modifier = { factor = 0.1 }
+		}
+	}
+song = {
+	name = "Silence 2.mp3"
+	chance = {
+		modifier = { factor = 0.1 }
+		}
+	}
+song = {
+	name = "Silence 3.mp3"
+	chance = {
+		modifier = { factor = 0.1 }
+		}
+	}
+song = {
+	name = "Silence 4.mp3"
+	chance = {
+		modifier = { factor = 0.1 }
+		}
+	}
+song = {
+	name = "Silence 5.mp3"
+	chance = {
+		modifier = { factor = 0.1 }
+		}
+	}
+song = {
+	name = "Silence 6.mp3"
+	chance = {
+		modifier = { factor = 0.1 }
+		}
+	}
+song = {
+	name = "Silence 7.mp3"
+	chance = {
+		modifier = { factor = 0.1 }
+		}
+	}
+
+####################################################################################################################################
+
+# Generic Peace
+
+# Generic Western songs for times of peace.
+# Some are weighted to certain countries, for instance Villa Lobos, which will play more often for Brazil.
+# But overall, any western nation, civized or not, will be able to play those songs
+
+song = {
+	name = "Peace/Villa Lobos - Fuga, Poco apressado.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+		modifier = { factor = -1 has_country_flag = exclusive_music }
+
+		modifier = {    # Brazil gets Villa Lobos more often
+			factor = 2
+			tag = BRZ
+		}
+	}
+} 
+
+song = {
+	name = "Peace/Villa Lobos - Ponteio.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+		modifier = { factor = -1 has_country_flag = exclusive_music }
+
+		modifier = {
+			factor = 2
+			tag = BRZ
+		}
+	}
+} 
+
+song = {
+	name = "Peace/Villa Lobos - Giga.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+		modifier = { factor = -1 has_country_flag = exclusive_music }
+
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 2
+			tag = BRZ
+		}
+	}
+}
+
+song = {
+	name = "Peace/Villa Lobos - Conversa II.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+		modifier = { factor = -1 has_country_flag = exclusive_music }
+
+		modifier = {
+			factor = 2
+			tag = BRZ
+		}
+	}
+}
+
+song = {
+	name = "Peace/Villa Lobos - O trenzinho do Caipira.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+		modifier = { factor = -1 has_country_flag = exclusive_music }
+
+		modifier = {
+			factor = 2
+			tag = BRZ
+		}
+		modifier = {
+			factor = -1
+			NOT = { year = 1900 }
+		}
+		modifier = {
+			factor = 2
+			industry = 150 
+		}
+	}
+}
+
+song = {
+	name = "Peace/Villa Lobos - Aria, Modinha.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+		modifier = { factor = -1 has_country_flag = exclusive_music }
+		
+		modifier = {            #This is sad and slow, so it will more often when war exhaustion is high after a war
+			factor = 5
+			war_exhaustion = 20
+		}
+		modifier = {
+			factor = 1.5
+			tag = BRZ
+		}
+	}
+} 
+
+song = {
+	name = "Peace/Villa Lobos - Canto da Nossa Terra.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+		modifier = { factor = -1 has_country_flag = exclusive_music }
+		
+		modifier = {
+			factor = 5
+			war_exhaustion = 20
+		}
+		modifier = {
+			factor = 1.5
+			tag = BRZ
+		}
+	}
+} 
+
+# Why don't Germany gets Offenbach more often, or maybe France with Maurice Ravel? You may ask
+# Those are not as often associated with their respective countries as much as Villa Lobos is to Brazil,
+# or Wagner to Germany.
+
+# Maurice Ravel is great music, but the average player won't associate it to france.
+
+# I will probably do this "national artists play more often in their country" thing for every single artist
+# once the mod has enough music. But not yet.
+
+song = {                                                               
+	name = "Offenbach - Duo for Two Cellos - Allegreto.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+		modifier = { factor = -1 has_country_flag = exclusive_music }
+
+	}
+}
+
+song = {
+	name = "Peace/Offenbach - Duo for Two Cellos - Andante.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+		modifier = { factor = -1 has_country_flag = exclusive_music }
+	}
+}
+
+
+song = {
+	name = "Peace/Maurice Ravel - Bolero - 1.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+		modifier = { factor = -1 has_country_flag = exclusive_music }
+
+	}
+}
+
+song = {
+	name = "Peace/Maurice Ravel - Bolero - 2.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+		modifier = { factor = -1 has_country_flag = exclusive_music }
+	}
+}
+
+song = {
+	name = "Peace/Maurice Ravel - Bolero - 3.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+		modifier = { factor = -1 has_country_flag = exclusive_music }
+
+		modifier = { factor = -1 
+					 is_greater_power = no}  #This part sounds way too epic, so Great Power only
+
+	}
+}
+
+song = {
+	name = "Peace/Maurice Ravel - Bolero - 1.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+		modifier = { factor = -1 has_country_flag = exclusive_music }
+
+	}
+}
+
+song = {
+	name = "Peace/Wagner - The Mastersingers of Nuremberg.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+		modifier = { factor = -1 has_country_flag = exclusive_music }
+		
+		modifier = { factor = -1 
+					 is_greater_power = no }
+
+		modifier = {       #German gets Wagner more often
+			factor = 1.5
+			tag = GER
+		}
+		
+		modifier = {
+			factor = 1.5
+			tag = PRU
+		}
+	}
+} 
+
+####################################################################################################################################
+
+# Generic War
+
+# Generic warsongs for western nations
+
+song = {
+	name = "War/Villa Lobos - Lembrancas do sertao.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = no }
+		modifier = { factor = -1 has_country_flag = exclusive_music }
+
+		modifier = {
+			factor = 5
+			war = yes
+		}
+		modifier = {  
+			factor = 1.5
+			tag = BRZ
+		}
+
+	}
+}
+
+song = {
+	name = "Germany/Wagner - Ride of the Valkyries.mp3"
+	chance = {
+		modifier = {
+			factor = 0.1     #This one is way too gliche, but it's too good not to have
+			war = yes
+		}
+		modifier = {
+			factor = -1
+			war = no
+		}
+		modifier = {  
+			factor = 1.5
+			tag = GER
+		}
+		modifier = {  
+			factor = 1.5
+			tag = PRU
+		}
+	}
+}
+
+####################################################################################################################################
+
+# Brazil
+
+# Brazil is a western nation (for the most part lol), so it will benefit from the generic list, but there are some exclusive brazillian songs
+
+song = {
+	name = "Brazil/O guarani.mp3"
+	chance = {
+		modifier = {
+			factor = -1
+			not = { tag = BRZ }
+		}
+		modifier = {
+			factor = -1
+			is_greater_power = no
+		}
+		modifier = {         
+			factor = -1
+			NOT = { year = 1930 }
+		}
+	}
+}
+
+song = {
+	name = "Brazil/Garota de Ipanema.mp3"
+	chance = {
+		modifier = {
+			factor = -1
+			is_greater_power = no
+		}
+		modifier = {
+			factor = -1
+			not = { tag = BRZ }
+		}
+		modifier = {         
+			factor = -1
+			NOT = { year = 1915 }
+		}
+	}
+}
+
+####################################################################################################################################
+
+# Japan
+
+# Uncivilized Japan will only play edo period or older folk music with folk instruments, mostly koto.
+# Once Japan westernizes, most edo songs have their chance to play heavily reduced, but they are never really gone.
+# Japan will never play generic western music from the main playlist.
+
+song = {
+	name = "Japan/Peace/Midare.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+		modifier = {
+			factor = -1
+			not = { primary_culture = japanese }
+		}
+		modifier = {
+			factor = 0.1
+			civilized = yes
+		}
+	}
+}
+
+song = {
+	name = "Japan/Peace/Cherry Blossoms.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+		modifier = {
+			factor = -1
+			not = { primary_culture = japanese }
+		}
+		modifier = {
+			factor = 0.1
+			civilized = yes
+		}
+	}
+}
+
+song = {
+	name = "Japan/Peace/Godanginuta - 1.mp3"
+	chance = {
+		modifier = { factor = 100 not = { has_country_flag = exclusive_music } }
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+
+		modifier = {
+			factor = -1
+			not = { primary_culture = japanese }
+		}
+		modifier = {
+			factor = 0.1
+			civilized = yes
+		}
+	}
+}
+
+song = {
+	name = "Japan/Peace/Godanginuta - 2.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+
+		modifier = {
+			factor = -1
+			not = { primary_culture = japanese }
+		}
+		modifier = {
+			factor = 0.1
+			civilized = yes
+		}
+	}
+}
+
+song = {
+	name = "Japan/Peace/Godanginuta - 3.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+
+		modifier = {
+			factor = -1
+			not = { primary_culture = japanese }
+		}
+		modifier = {
+			factor = 0.1
+			civilized = yes
+		}
+	}
+}
+
+song = {
+	name = "Japan/Peace/Godanginuta - 4.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+
+		modifier = {
+			factor = -1
+			not = { primary_culture = japanese }
+		}
+		modifier = {
+			factor = 0.1
+			civilized = yes
+		}
+	}
+}
+
+song = {
+	name = "Japan/Peace/The Plight of the Samurai - 1.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+
+		modifier = {
+			factor = -1
+			not = { primary_culture = japanese }
+		}
+		modifier = {
+			factor = -1
+			civilized = yes
+		}
+
+	}
+}
+
+song = {
+	name = "Japan/Peace/The Plight of the Samurai - 2.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+
+		modifier = {
+			factor = -1
+			not = { primary_culture = japanese }
+		}
+		modifier = {
+			factor = -1
+			civilized = yes
+		}
+
+	}
+}
+
+# Westernized Japan, post edo music
+
+# Once Japan westernizes, it will play mixed orchestra songs with both western and folk instruments.
+# The songs were chosen to show westernization, but are unique enough to have their obvious distinct japanese feel.
+# Westernized war marches are mostly avoided, they sound way too western and not japanese on the slighest.
+
+song = {
+	name = "Japan/Peace/Inno Meiji - Kosaku Yamada - 1.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+
+		modifier = {
+			factor = -1
+			not = { primary_culture = japanese }
+		}
+		modifier = {
+			factor = -1
+			civilized = no
+		}
+
+	}
+}
+
+song = {
+	name = "Japan/Peace/Inno Meiji - Kosaku Yamada - 2.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+		
+		modifier = { 
+			factor = -1
+			not = { primary_culture = japanese }
+		}
+		modifier = {
+			factor = -1
+			civilized = no
+		}
+
+	}
+}
+
+song = {
+	name = "Japan/Peace/Inno Meiji - Kosaku Yamada - 3.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+
+		modifier = {
+			factor = -1
+			not = { primary_culture = japanese }
+		}
+		modifier = {
+			factor = -1
+			civilized = no
+		}
+
+	}
+}
+
+song = {
+	name = "Japan/Peace/Inno Meiji - Kosaku Yamada - 4.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+
+		modifier = {
+			factor = -1
+			not = { primary_culture = japanese }
+		}
+		modifier = {
+			factor = -1
+			civilized = no
+		}
+
+	}
+}
+
+song = {
+	name = "Japan/Peace/Koto Concerto - Genji III - Maiden on the Bridge.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+
+		modifier = {
+			factor = -1
+			not = { primary_culture = japanese }
+		}
+		modifier = {
+			factor = -1
+			civilized = no
+		}
+
+	}
+}
+
+song = {
+	name = "Japan/Peace/Koto Concerto - Genji I - Cicada Shell.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+
+		modifier = {
+			factor = -1
+			not = { primary_culture = japanese }
+		}
+		modifier = {
+			factor = -1
+			civilized = no
+		}
+	}
+}
+
+song = {
+	name = "Japan/Peace/Koto Concerto - Genji IV - Floating Bridge of Dreams.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = no }
+
+		modifier = {
+			factor = -1
+			not = { primary_culture = japanese }
+		}
+		modifier = {
+			factor = -1
+			civilized = no
+		}
+	}
+}
+
+song = {
+	name = "Japan/Peace/Koto Concerto - Genji V - Vanished Into the Clouds.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = yes }
+
+		modifier = {
+			factor = -1
+			not = { primary_culture = japanese }
+		}
+		modifier = {
+			factor = -1
+			civilized = no
+		}
+	}
+}
+
+song = {
+	name = "Japan/War/Doki no sakura.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = -1 war = no }
+
+		modifier = {
+			factor = -1
+			not = { primary_culture = japanese }
+		}
+		modifier = {
+			factor = -1
+			civilized = no
+		}
+
+	}
+}
+
+####################################################################################################################################
+
+# Mongol Empire
+
+# The Mongols are going to get the same treatment as japan, but still under work
+song = {
+	name = "Mongolia/In Praise of Gengis Khan.mp3"
+	chance = {
+
+		modifier = {
+			factor = 10
+			war = yes
+		}
+		modifier = {
+			factor = -1
+			war = no
+		}
+		modifier = {
+			factor = -1
+			NOT = { tag = MGL } 
+		}
+	}
+}
+
+
+
