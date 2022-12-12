@@ -8,45 +8,37 @@
 
 song = {
 	name = "Silence 1.mp3"
-	chance = {
-		modifier = { factor = 0.1 }
-		}
+	chance = { modifier = { factor = 0.1 } }
 	}
+
 song = {
 	name = "Silence 2.mp3"
-	chance = {
-		modifier = { factor = 0.1 }
-		}
+	chance = { modifier = { factor = 0.1 } }
 	}
+
 song = {
 	name = "Silence 3.mp3"
-	chance = {
-		modifier = { factor = 0.1 }
-		}
+	chance = { modifier = { factor = 0.1 } }
 	}
+
 song = {
 	name = "Silence 4.mp3"
-	chance = {
-		modifier = { factor = 0.1 }
-		}
+	chance = { modifier = { factor = 0.1 } }
 	}
+
 song = {
 	name = "Silence 5.mp3"
-	chance = {
-		modifier = { factor = 0.1 }
-		}
+	chance = { modifier = { factor = 0.1 } }
 	}
+
 song = {
 	name = "Silence 6.mp3"
-	chance = {
-		modifier = { factor = 0.1 }
-		}
+	chance = { modifier = { factor = 0.1 } }
 	}
+
 song = {
 	name = "Silence 7.mp3"
-	chance = {
-		modifier = { factor = 0.1 }
-		}
+	chance = { modifier = { factor = 0.1 } }
 	}
 
 ####################################################################################################################################
@@ -55,7 +47,7 @@ song = {
 
 # Generic Western songs for times of peace.
 # Some are weighted to certain countries, for instance Villa Lobos, which will play more often for Brazil.
-# But overall, any western nation, civized or not, will be able to play those songs
+# But overall, any western nation, civized or NOT , will be able to play those songs
 
 song = {
 	name = "Peace/Villa Lobos - Fuga, Poco apressado.mp3"
@@ -64,10 +56,7 @@ song = {
 		modifier = { factor = -1 war = yes }
 		modifier = { factor = -1 has_country_flag = exclusive_music }
 
-		modifier = {    # Brazil gets Villa Lobos more often
-			factor = 2
-			tag = BRZ
-		}
+		modifier = { factor = 2 tag = BRZ }	# Brazil gets Villa Lobos more often
 	}
 } 
 
@@ -78,10 +67,7 @@ song = {
 		modifier = { factor = -1 war = yes }
 		modifier = { factor = -1 has_country_flag = exclusive_music }
 
-		modifier = {
-			factor = 2
-			tag = BRZ
-		}
+		modifier = { factor = 2 tag = BRZ }
 	}
 } 
 
@@ -92,14 +78,8 @@ song = {
 		modifier = { factor = -1 war = yes }
 		modifier = { factor = -1 has_country_flag = exclusive_music }
 
-		modifier = {
-			factor = 2
-			is_greater_power = yes
-		}
-		modifier = {
-			factor = 2
-			tag = BRZ
-		}
+		modifier = { factor = 2 is_greater_power = yes } # This one is too epic, great power only
+		modifier = { factor = 2 tag = BRZ }
 	}
 }
 
@@ -110,10 +90,7 @@ song = {
 		modifier = { factor = -1 war = yes }
 		modifier = { factor = -1 has_country_flag = exclusive_music }
 
-		modifier = {
-			factor = 2
-			tag = BRZ
-		}
+		modifier = { factor = 2 tag = BRZ }	
 	}
 }
 
@@ -124,18 +101,9 @@ song = {
 		modifier = { factor = -1 war = yes }
 		modifier = { factor = -1 has_country_flag = exclusive_music }
 
-		modifier = {
-			factor = 2
-			tag = BRZ
-		}
-		modifier = {
-			factor = -1
-			NOT = { year = 1900 }
-		}
-		modifier = {
-			factor = 2
-			industry = 150 
-		}
+		modifier = { factor = 2 tag = BRZ }
+		modifier = { factor = -1 NOT = { year = 1900 } }
+		modifier = { factor = 2 industry = 150 }
 	}
 }
 
@@ -146,14 +114,8 @@ song = {
 		modifier = { factor = -1 war = yes }
 		modifier = { factor = -1 has_country_flag = exclusive_music }
 		
-		modifier = {            # This is sad and slow, so it will more often when war exhaustion is high after a war
-			factor = 5
-			war_exhaustion = 20
-		}
-		modifier = {
-			factor = 1.5
-			tag = BRZ
-		}
+		modifier = { factor = 5 war_exhaustion = 20 }  # This is sad and slow, so it will more often when war exhaustion is high after a war
+		modifier = { factor = 1.5 tag = BRZ }
 	}
 } 
 
@@ -164,25 +126,19 @@ song = {
 		modifier = { factor = -1 war = yes }
 		modifier = { factor = -1 has_country_flag = exclusive_music }
 		
-		modifier = {
-			factor = 5
-			war_exhaustion = 20
-		}
-		modifier = {
-			factor = 1.5
-			tag = BRZ
-		}
+		modifier = { factor = 5 war_exhaustion = 20 }
+		modifier = { factor = 1.5 tag = BRZ }
 	}
 } 
 
 # Why don't Germany/France gets Offenbach more often, or maybe France with Maurice Ravel? You may ask
-# Those are not as often associated with their respective countries as much as Villa Lobos is to Brazil,
+# Those are NOT as often associated with their respective countries as much as Villa Lobos is to Brazil,
 # or Wagner to Germany.
 
 # Maurice Ravel is great music, but the average player won't associate it to france.
 
 # I will probably do this "national artists play more often in their country" thing for every single artist
-# once the mod has enough music. But not yet.
+# once the mod has enough music. But NOT yet.
 
 song = {                                                               
 	name = "Peace/Offenbach - Duo for Two Cellos - Allegreto.mp3"
@@ -190,7 +146,6 @@ song = {
 		modifier = { factor = 1 }
 		modifier = { factor = -1 war = yes }
 		modifier = { factor = -1 has_country_flag = exclusive_music }
-
 	}
 }
 
@@ -203,14 +158,12 @@ song = {
 	}
 }
 
-
 song = {
 	name = "Peace/Maurice Ravel - Bolero - 1.mp3"
 	chance = {
 		modifier = { factor = 1 }
 		modifier = { factor = -1 war = yes }
 		modifier = { factor = -1 has_country_flag = exclusive_music }
-
 	}
 }
 
@@ -230,9 +183,7 @@ song = {
 		modifier = { factor = -1 war = yes }
 		modifier = { factor = -1 has_country_flag = exclusive_music }
 
-		modifier = { factor = -1 
-					 is_greater_power = no}  # This part sounds way too epic, so Great Power only
-
+		modifier = { factor = -1 is_greater_power = no}  # This part sounds way too epic, so Great Power only
 	}
 }
 
@@ -243,18 +194,9 @@ song = {
 		modifier = { factor = -1 war = yes }
 		modifier = { factor = -1 has_country_flag = exclusive_music }
 		
-		modifier = { factor = -1 
-					 is_greater_power = no }
-
-		modifier = {       #German gets Wagner more often
-			factor = 1.5
-			tag = GER
-		}
-		
-		modifier = {
-			factor = 1.5
-			tag = PRU
-		}
+		modifier = { factor = -1 is_greater_power = no }
+		modifier = { factor = 2 tag = GER } #German gets Wagner more often
+		modifier = { factor = 2 tag = PRU }
 	}
 } 
 
@@ -271,37 +213,20 @@ song = {
 		modifier = { factor = -1 war = no }
 		modifier = { factor = -1 has_country_flag = exclusive_music }
 
-		modifier = {
-			factor = 5
-			war = yes
-		}
-		modifier = {  
-			factor = 1.5
-			tag = BRZ
-		}
-
+		modifier = { factor = 10 war = yes }
+		modifier = { factor = 1.5 tag = BRZ }
 	}
 }
 
 song = {
 	name = "War/Wagner - Ride of the Valkyries.mp3"
 	chance = {
-		modifier = {
-			factor = 0.1     # This one is way too gliche, but it's too good not to have
-			war = yes
-		}
-		modifier = {
-			factor = -1
-			war = no
-		}
-		modifier = {        
-			factor = 1.5
-			tag = GER
-		}
-		modifier = {  
-			factor = 1.5
-			tag = PRU
-		}
+		modifier = { factor = 0.1 war = yes } # This one is way too gliche, but it's too good NOT to have
+		modifier = { factor = -1 war = no }
+		odifier = { factor = -1 has_country_flag = exclusive_music }
+
+		modifier = { factor = 1.5 tag = GER }
+		modifier = { factor = 1.5 tag = PRU }
 	}
 }
 
@@ -312,38 +237,11 @@ song = {
 # Brazil is a western nation (for the most part lol), so it will benefit from the generic list, but there are some exclusive brazillian songs
 
 song = {
-	name = "Brazil/O guarani.mp3"
-	chance = {
-		modifier = {
-			factor = -1
-			not = { tag = BRZ }
-		}
-		modifier = {
-			factor = -1
-			is_greater_power = no
-		}
-		modifier = {         
-			factor = -1
-			NOT = { year = 1930 }
-		}
-	}
-}
-
-song = {
 	name = "Brazil/Garota de Ipanema.mp3"
 	chance = {
-		modifier = {
-			factor = -1
-			is_greater_power = no
-		}
-		modifier = {
-			factor = -1
-			not = { tag = BRZ }
-		}
-		modifier = {         
-			factor = -1
-			NOT = { year = 1915 }
-		}
+		modifier = { factor = -1 is_greater_power = no }
+		modifier = { factor = -1 NOT = { tag = BRZ } }
+		modifier = { factor = -1 NOT = { year = 1915 } }
 	}
 }
 
@@ -355,53 +253,35 @@ song = {
 # Once Japan westernizes, most edo songs have their chance to play heavily reduced, but they are never really gone.
 # Japan will never play generic western music from the main playlist.
 
+
 song = {
-	name = "Japan/Peace/Midare.mp3"
+	name = "Japan/Peace/Haru No Umi - 1.mp3"
 	chance = {
 		modifier = { factor = 1 }
+		modifier = { factor = 1000 NOT = { has_country_flag = exclusive_music } }
 		modifier = { factor = -1 war = yes }
-		modifier = {
-			factor = -1
-			not = { primary_culture = japanese }
-		}
-		modifier = {
-			factor = 0.1
-			civilized = yes
-		}
+		modifier = { factor = -1 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0.5 civilized = yes }
 	}
 }
 
 song = {
-	name = "Japan/Peace/Cherry Blossoms.mp3"
+	name = "Japan/Peace/Haru No Umi - 2.mp3"
 	chance = {
 		modifier = { factor = 1 }
 		modifier = { factor = -1 war = yes }
-		modifier = {
-			factor = -1
-			not = { primary_culture = japanese }
-		}
-		modifier = {
-			factor = 0.1
-			civilized = yes
-		}
+		modifier = { factor = -1 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0.5 civilized = yes }
 	}
 }
 
 song = {
 	name = "Japan/Peace/Godanginuta - 1.mp3"
 	chance = {
-		modifier = { factor = 100 not = { has_country_flag = exclusive_music } }
 		modifier = { factor = 1 }
 		modifier = { factor = -1 war = yes }
-
-		modifier = {
-			factor = -1
-			not = { primary_culture = japanese }
-		}
-		modifier = {
-			factor = 0.1
-			civilized = yes
-		}
+		modifier = { factor = -1 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0.1 civilized = yes }
 	}
 }
 
@@ -410,15 +290,8 @@ song = {
 	chance = {
 		modifier = { factor = 1 }
 		modifier = { factor = -1 war = yes }
-
-		modifier = {
-			factor = -1
-			not = { primary_culture = japanese }
-		}
-		modifier = {
-			factor = 0.1
-			civilized = yes
-		}
+		modifier = { factor = -1 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0.1 civilized = yes }
 	}
 }
 
@@ -427,15 +300,8 @@ song = {
 	chance = {
 		modifier = { factor = 1 }
 		modifier = { factor = -1 war = yes }
-
-		modifier = {
-			factor = -1
-			not = { primary_culture = japanese }
-		}
-		modifier = {
-			factor = 0.1
-			civilized = yes
-		}
+		modifier = { factor = -1 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0.1 civilized = yes }
 	}
 }
 
@@ -444,75 +310,87 @@ song = {
 	chance = {
 		modifier = { factor = 1 }
 		modifier = { factor = -1 war = yes }
-
-		modifier = {
-			factor = -1
-			not = { primary_culture = japanese }
-		}
-		modifier = {
-			factor = 0.1
-			civilized = yes
-		}
+		modifier = { factor = -1 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0.1 civilized = yes }
 	}
 }
 
 song = {
-	name = "Japan/Peace/The Plight of the Samurai - 1.mp3"
+	name = "Japan/Peace/Tegoto - 1.mp3"
 	chance = {
 		modifier = { factor = 1 }
 		modifier = { factor = -1 war = yes }
+		modifier = { factor = -1 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0.2 civilized = yes }
+	}
+}
 
-		modifier = {
-			factor = -1
-			not = { primary_culture = japanese }
-		}
-		modifier = {
-			factor = -1
-			civilized = yes
-		}
+# Japanese War songs
+# Kinda hard to do honestly
 
+song = {
+	name = "Japan/Peace/The Plight of the Samurai - 1.mp3"  #This one has low quality, gotta find a better version
+	chance = {
+		modifier = { factor = 10 war = yes }
+		modifier = { factor = -1 war = no }
+		modifier = { factor = -1 NOT = { primary_culture = japanese } }
+		modifier = { factor = -1 civilized = yes }
 	}
 }
 
 song = {
 	name = "Japan/Peace/The Plight of the Samurai - 2.mp3"
 	chance = {
-		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-
-		modifier = {
-			factor = -1
-			not = { primary_culture = japanese }
-		}
-		modifier = {
-			factor = -1
-			civilized = yes
-		}
-
+		modifier = { factor = 10 war = yes }
+		modifier = { factor = -1 war = no }
+		modifier = { factor = -1 NOT = { primary_culture = japanese } }
+		modifier = { factor = -1 civilized = yes }
 	}
 }
+
+song = {
+	name = "Japan/War/Tegoto - 2.mp3"
+	chance = {
+		modifier = { factor = 10 war = yes }
+		modifier = { factor = -1 war = no }
+		modifier = { factor = -1 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0.5 civilized = yes }
+	}
+}
+
+song = {
+	name = "Japan/War/Koto Concerto - Genji IV - Floating Bridge of Dreams.mp3"
+	chance = {
+		modifier = { factor = 20 war = yes }
+		modifier = { factor = -1 war = no }
+		modifier = { factor = -1 NOT = { primary_culture = japanese } }
+		modifier = { factor = -1 civilized = no }
+	}
+}
+
+song = {
+	name = "Japan/War/Doki no sakura.mp3"
+	chance = {
+		modifier = { factor = 10 war = yes }
+		modifier = { factor = -1 war = no }
+		modifier = { factor = -1 civilized = no }
+		modifier = { factor = -1 NOT = { primary_culture = japanese } }
+	}
+}  
 
 # Westernized Japan, post edo music
 
 # Once Japan westernizes, it will play mixed orchestra songs with both western and folk instruments.
 # The songs were chosen to show westernization, but are unique enough to have their obvious distinct japanese feel.
-# Westernized war marches are mostly avoided, they sound way too western and not japanese on the slighest.
+# Westernized war marches are mostly avoided, they sound way too western and NOT japanese on the slighest.
 
 song = {
 	name = "Japan/Peace/Inno Meiji - Kosaku Yamada - 1.mp3"
 	chance = {
 		modifier = { factor = 1 }
 		modifier = { factor = -1 war = yes }
-
-		modifier = {
-			factor = -1
-			not = { primary_culture = japanese }
-		}
-		modifier = {
-			factor = -1
-			civilized = no
-		}
-
+		modifier = { factor = -1 NOT = { primary_culture = japanese } }
+		modifier = { factor = -1 civilized = no }
 	}
 }
 
@@ -521,16 +399,8 @@ song = {
 	chance = {
 		modifier = { factor = 1 }
 		modifier = { factor = -1 war = yes }
-		
-		modifier = { 
-			factor = -1
-			not = { primary_culture = japanese }
-		}
-		modifier = {
-			factor = -1
-			civilized = no
-		}
-
+		modifier = { factor = -1 NOT = { primary_culture = japanese } }
+		modifier = { factor = -1 civilized = no }
 	}
 }
 
@@ -539,16 +409,8 @@ song = {
 	chance = {
 		modifier = { factor = 1 }
 		modifier = { factor = -1 war = yes }
-
-		modifier = {
-			factor = -1
-			not = { primary_culture = japanese }
-		}
-		modifier = {
-			factor = -1
-			civilized = no
-		}
-
+		modifier = { factor = -1 NOT = { primary_culture = japanese } }
+		modifier = { factor = -1 civilized = no }
 	}
 }
 
@@ -557,16 +419,8 @@ song = {
 	chance = {
 		modifier = { factor = 1 }
 		modifier = { factor = -1 war = yes }
-
-		modifier = {
-			factor = -1
-			not = { primary_culture = japanese }
-		}
-		modifier = {
-			factor = -1
-			civilized = no
-		}
-
+		modifier = { factor = -1 NOT = { primary_culture = japanese } }
+		modifier = { factor = -1 civilized = no }
 	}
 }
 
@@ -575,16 +429,8 @@ song = {
 	chance = {
 		modifier = { factor = 1 }
 		modifier = { factor = -1 war = yes }
-
-		modifier = {
-			factor = -1
-			not = { primary_culture = japanese }
-		}
-		modifier = {
-			factor = -1
-			civilized = no
-		}
-
+		modifier = { factor = -1 NOT = { primary_culture = japanese } }
+		modifier = { factor = -1 civilized = no }
 	}
 }
 
@@ -593,32 +439,8 @@ song = {
 	chance = {
 		modifier = { factor = 1 }
 		modifier = { factor = -1 war = yes }
-
-		modifier = {
-			factor = -1
-			not = { primary_culture = japanese }
-		}
-		modifier = {
-			factor = -1
-			civilized = no
-		}
-	}
-}
-
-song = {
-	name = "Japan/Peace/Koto Concerto - Genji IV - Floating Bridge of Dreams.mp3"
-	chance = {
-		modifier = { factor = 1 }
-		modifier = { factor = -1 war = no }
-
-		modifier = {
-			factor = -1
-			not = { primary_culture = japanese }
-		}
-		modifier = {
-			factor = -1
-			civilized = no
-		}
+		modifier = { factor = -1 NOT = { primary_culture = japanese } }
+		modifier = { factor = -1 civilized = no }
 	}
 }
 
@@ -627,33 +449,8 @@ song = {
 	chance = {
 		modifier = { factor = 1 }
 		modifier = { factor = -1 war = yes }
-
-		modifier = {
-			factor = -1
-			not = { primary_culture = japanese }
-		}
-		modifier = {
-			factor = -1
-			civilized = no
-		}
-	}
-}
-
-song = {
-	name = "Japan/War/Doki no sakura.mp3"
-	chance = {
-		modifier = { factor = 1 }
-		modifier = { factor = -1 war = no }
-
-		modifier = {
-			factor = -1
-			not = { primary_culture = japanese }
-		}
-		modifier = {
-			factor = -1
-			civilized = no
-		}
-
+		modifier = { factor = -1 NOT = { primary_culture = japanese } }
+		modifier = { factor = -1 civilized = no }
 	}
 }
 
@@ -665,19 +462,9 @@ song = {
 song = {
 	name = "Mongolia/In Praise of Gengis Khan.mp3"
 	chance = {
-
-		modifier = {
-			factor = 10
-			war = yes
-		}
-		modifier = {
-			factor = -1
-			war = no
-		}
-		modifier = {
-			factor = -1
-			NOT = { tag = MGL } 
-		}
+		modifier = { factor = 10 war = yes }
+		modifier = { factor = -1 war = no }
+		modifier = { factor = -1 NOT = { tag = MGL } }
 	}
 }
 

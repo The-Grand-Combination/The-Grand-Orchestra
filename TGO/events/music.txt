@@ -1,20 +1,21 @@
 country_event = { 
 		id = 6300
-        trigger = {
-			primary_culture = japanese
-		}
+		title = "test"
+		desc = "test"
 
-        mean_time_to_happen =  {
-            months = 0.1
-        }
+        trigger = { tag = JAN }
+
+		mean_time_to_happen = { months = 0.1 }
 
 		fire_only_once = yes
 
-		title = "Music mod!"
-		desc = "This will setup the music mod until I sort this thing out. This event will be removed soon, don't worry"
-
 		option = {
-			name = "Nice!"
-			set_country_flag = exclusive_music
+			name = "nice!"
+			any_country = { 
+				limit = {
+					primary_culture = japanese
+				}
+				set_country_flag = exclusive_music
+			}			
 		}
 	}
