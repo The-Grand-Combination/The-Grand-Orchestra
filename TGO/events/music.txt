@@ -1,21 +1,65 @@
 country_event = { 
 		id = 6300
-		title = "test"
-		desc = "test"
+		title = "AIEVENT"
+		desc = "AIEVENT"
 
         trigger = { tag = JAN }
 
-		mean_time_to_happen = { months = 0.1 }
+		mean_time_to_happen = { days = 1 }
 
 		fire_only_once = yes
 
 		option = {
 			name = "nice!"
 			any_country = { 
-				limit = {
-					primary_culture = japanese
+				limit = {                               #YES, this is extremely generic still. Mongolia shouldnt be listening to japanese music at all.
+					OR = {
+						accepted_culture = japanese
+						accepted_culture = han_chinese
+						accepted_culture = manchu
+						accepted_culture = korean
+						accepted_culture = mongol
+						accepted_culture = hakka
+						accepted_culture = yue
+						accepted_culture = yi
+						accepted_culture = hanhui
+						accepted_culture = malay
+						accepted_culture = burmese
+						accepted_culture = karen
+						accepted_culture = dajak
+						accepted_culture = thai
+						accepted_culture = tamil
+						accepted_culture = mahayana
+						accepted_culture = tibetan
+					}
 				}
+				set_country_flag = asian_music
 				set_country_flag = exclusive_music
-			}			
+			}
+
+			any_country = { 
+				limit = {       
+					OR = {
+						accepted_culture = peruvian
+						accepted_culture = bolivian
+						accepted_culture = ecuadorian
+					}
+				}
+				set_country_flag = andean_music
+			}
+
+			any_country = { 
+				limit = {       
+					OR = {
+						accepted_culture = argentinean
+						accepted_culture = paraguayan
+						accepted_culture = chilean
+						accepted_culture = colombian
+						accepted_culture = venezuelan
+					}
+				}
+				set_country_flag = latin_america_music
+			}
+
 		}
 	}
