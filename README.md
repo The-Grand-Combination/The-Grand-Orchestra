@@ -1,4 +1,3 @@
-# The Grand Orchestra
 ![Orchestra](https://user-images.githubusercontent.com/32886642/209884261-069d70e1-997f-4152-a99a-c6b527ea6fd2.png)
 
 TGA, The Grand Orchestra, is TGC's official music sub mod! 
