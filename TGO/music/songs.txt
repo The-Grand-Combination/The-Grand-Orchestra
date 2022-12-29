@@ -545,49 +545,80 @@ song = {
 
 ####################################################################################################################################
 
-# Peru and Bolivia
+# Peru
+
 
 song = {
-	name = "Latin America/Andean/El Condor Pasa.mp3"
+	name = "Latin America/Peru/El Condor Pasa.mp3"
 	chance = {
-		modifier = { factor = 2 }
+		modifier = { factor = 1 }
 		modifier = { factor = 0 war = no }
 		modifier = { factor = 0 NOT = { has_country_flag = andean_music } }
 	}
 }
 
 song = {
-	name = "Latin America/Andean/Tarantela D'Apres Lucas Ruiz De Ribayaz.mp3"
+	name = "Latin America/Peru/El Condor Pasa Extended.mp3"
 	chance = {
-		modifier = { factor = 2 }
-		modifier = { factor = 0 war = no }
-		modifier = { factor = 0 NOT = { has_country_flag = andean_music } }
-	}
-}
-
-# song = {
-# 	name = "Latin America/Andean/Xacaras - Lucas Ruiz de Ribayaz.mp3"
-# 	chance = {
-# 		modifier = { factor = 2 }
-# 		modifier = { factor = 0 war = no }
-# 		modifier = { factor = 0 NOT = { has_country_flag = andean_music } }
-# 		modifier = { factor = 2 OR = { government = fascist_dictatorship government = absolute_monarchy government = presidential_dictatorship } }
-# 	}
-# }
-
-song = {
-	name = "Latin America/Andean/Lanchas para Baylar.mp3"
-	chance = {
-		modifier = { factor = 2 }
+		modifier = { factor = 0.1 }
 		modifier = { factor = 0 war = no }
 		modifier = { factor = 0 NOT = { has_country_flag = andean_music } }
 	}
 }
 
 song = {
-	name = "Latin America/Andean/Juan de Araujo - Recordad Jilguerillos.mp3"
+	name = "Latin America/Peru/Marinera y Tondero.mp3"
 	chance = {
-		modifier = { factor = 2 }
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = peruvian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Latin America/Peru/El Plebeyo.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = peruvian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Latin America/Peru/Tarantela D'Apres Lucas Ruiz De Ribayaz.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 3 primary_culture = peruvian }
+		modifier = { factor = 0 NOT = { has_country_flag = andean_music } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Latin America/Peru/Xacaras - Lucas Ruiz de Ribayaz.mp3"
+	chance = {
+		modifier = { factor = 0 war = no }
+		modifier = { factor = 2 primary_culture = peruvian }
+		modifier = { factor = 2 primary_culture = spanish }
+		modifier = { factor = 2 OR = { government = fascist_dictatorship government = absolute_monarchy government = presidential_dictatorship } }
+	}
+}
+
+song = {
+	name = "Latin America/Peru/Lanchas para Baylar.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 NOT = { has_country_flag = andean_music } }
+	}
+}
+
+song = {
+	name = "Latin America/Peru/Juan de Araujo - Recordad Jilguerillos.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 5 primary_culture = peruvian }
+		modifier = { factor = 1 primary_culture = spanish }
 		modifier = { factor = 0 war = no }
 		modifier = { factor = 0 is_greater_power = no}
 		modifier = { factor = 0 NOT = { OR = { government = absolute_monarchy government = fascist_dictatorship } } }
@@ -596,16 +627,88 @@ song = {
 }
 
 song = {
-	name = "Latin America/Andean/La Flor de la Canela.mp3"
+	name = "Latin America/Peru/La Flor de la Canela.mp3"
 	chance = {
-		modifier = { factor = 5 }
+		modifier = { factor = 2 primary_culture = peruvian }
 		modifier = { factor = 0.1 year = 1865 }
 		modifier = { factor = 0 war = yes }
 	}
 }
 
+song = {
+	name = "Latin America/Peru/Marcha a Moran.mp3"
+	chance = {
+		modifier = { factor = 0 NOT = { primary_culture = peruvian } }
+		modifier = { factor = 10 war = yes }
+	}
+}
 
 
+####################################################################################################################################
 
+# Bolivia
 
+song = {
+	name = "Latin America/Bolivia/Alma crucena.mp3"
+	chance = {
+		modifier = { factor = 0.5 }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 NOT = { primary_culture = bolivian } }
+	}
+}
 
+song = {
+	name = "Latin America/Bolivia/Potosino Soy.mp3"
+	chance = {
+		modifier = { factor = 0.5 }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 NOT = { primary_culture = bolivian } }
+	}
+}
+
+song = {
+	name = "Latin America/Bolivia/Chovena, Carnavalito, Carnaval De Ulises.mp3"
+	chance = {
+		modifier = { factor = 0.5 }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 NOT = { primary_culture = bolivian } }
+	}
+}
+
+song = {
+	name = "Latin America/Bolivia/Sonata Chiquitana IV - Allegro.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 2 primary_culture = bolivian }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Latin America/Bolivia/Sonata Chiquitana IV - Andante.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 2 primary_culture = bolivian }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Latin America/Bolivia/Sonata Chiquitana IV - Minueto.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 2 primary_culture = bolivian }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Latin America/Bolivia/Oh! Cochabamba.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 NOT = { primary_culture = bolivian } }
+	}
+}
+
+####################################################################################################################################
