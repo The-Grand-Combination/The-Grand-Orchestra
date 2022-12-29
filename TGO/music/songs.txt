@@ -53,8 +53,8 @@ song = {
 	name = "Peace/Villa Lobos - Fuga, Poco apressado.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		modifier = { factor = -1 has_country_flag = exclusive_music }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 has_country_flag = exclusive_music }
 
 		modifier = { factor = 2 tag = BRZ }	# Brazil gets Villa Lobos more often
 	}
@@ -64,8 +64,8 @@ song = {
 	name = "Peace/Villa Lobos - Ponteio.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		modifier = { factor = -1 has_country_flag = exclusive_music }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 has_country_flag = exclusive_music }
 
 		modifier = { factor = 2 tag = BRZ }
 	}
@@ -75,9 +75,9 @@ song = {
 	name = "Peace/Villa Lobos - Giga.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		modifier = { factor = -1 has_country_flag = exclusive_music }
-		modifier = { factor = -1 is_greater_power = no } # This one is too epic, great power only
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 has_country_flag = exclusive_music }
+		modifier = { factor = 0 is_greater_power = no } # This one is too epic, great power only
 
 		
 		modifier = { factor = 2 tag = BRZ }
@@ -88,8 +88,8 @@ song = {
 	name = "Peace/Villa Lobos - Conversa II.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		modifier = { factor = -1 has_country_flag = exclusive_music }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 has_country_flag = exclusive_music }
 
 		modifier = { factor = 2 tag = BRZ }	
 	}
@@ -99,12 +99,12 @@ song = {
 	name = "Peace/Villa Lobos - O trenzinho do Caipira.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		modifier = { factor = -1 has_country_flag = exclusive_music }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 has_country_flag = exclusive_music }
 
 		modifier = { factor = 2 tag = BRZ }
-		modifier = { factor = -1 NOT = { year = 1900 } }
-		modifier = { factor = 2 industry = 150 }
+		modifier = { factor = 0 NOT = { year = 1900 } }
+		modifier = { factor = 2 industrial_score = 150 }
 	}
 }
 
@@ -112,8 +112,8 @@ song = {
 	name = "Peace/Villa Lobos - Aria, Modinha.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		modifier = { factor = -1 has_country_flag = exclusive_music }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 has_country_flag = exclusive_music }
 		
 		modifier = { factor = 5 war_exhaustion = 20 }  # This is sad and slow, so it will more often when war exhaustion is high after a war
 		modifier = { factor = 1.5 tag = BRZ }
@@ -124,8 +124,8 @@ song = {
 	name = "Peace/Villa Lobos - Canto da Nossa Terra.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		modifier = { factor = -1 has_country_flag = exclusive_music }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 has_country_flag = exclusive_music }
 		
 		modifier = { factor = 5 war_exhaustion = 20 }
 		modifier = { factor = 1.5 tag = BRZ }
@@ -136,8 +136,8 @@ song = {
 	name = "Peace/Theodoro Valcarel - Concierto Indio I. Allegro festivo.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		modifier = { factor = -1 has_country_flag = exclusive_music }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 has_country_flag = exclusive_music }
 		modifier = { factor = 2 has_country_flag = latin_america_music }
 	}
 } 
@@ -146,8 +146,8 @@ song = {
 	name = "Peace/Theodoro Valcarcel - Concierto indio II. Cantabile.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		modifier = { factor = -1 has_country_flag = exclusive_music }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 has_country_flag = exclusive_music }
 		modifier = { factor = 2 war_exhaustion = 10 }
 		modifier = { factor = 2 has_country_flag = latin_america_music }
 	}
@@ -167,8 +167,8 @@ song = {
 	name = "Peace/Offenbach - Duo for Two Cellos - Allegreto.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		modifier = { factor = -1 has_country_flag = exclusive_music }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 has_country_flag = exclusive_music }
 	}
 }
 
@@ -176,8 +176,8 @@ song = {
 	name = "Peace/Offenbach - Duo for Two Cellos - Andante.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		modifier = { factor = -1 has_country_flag = exclusive_music }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 has_country_flag = exclusive_music }
 	}
 }
 
@@ -185,8 +185,8 @@ song = {
 	name = "Peace/Maurice Ravel - Bolero - 1.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		modifier = { factor = -1 has_country_flag = exclusive_music }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 has_country_flag = exclusive_music }
 	}
 }
 
@@ -194,8 +194,8 @@ song = {
 	name = "Peace/Maurice Ravel - Bolero - 2.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		modifier = { factor = -1 has_country_flag = exclusive_music }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 has_country_flag = exclusive_music }
 	}
 }
 
@@ -203,10 +203,10 @@ song = {
 	name = "Peace/Maurice Ravel - Bolero - 3.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		modifier = { factor = -1 has_country_flag = exclusive_music }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 has_country_flag = exclusive_music }
 
-		modifier = { factor = -1 is_greater_power = no}  # This part sounds way too epic, so Great Power only
+		modifier = { factor = 0 is_greater_power = no}  # This part sounds way too epic, so Great Power only
 	}
 }
 
@@ -214,10 +214,10 @@ song = {
 	name = "Peace/Wagner - The Mastersingers of Nuremberg.mp3"
 	chance = {
 		modifier = { factor = 0.5 }
-		modifier = { factor = -1 war = yes }
-		modifier = { factor = -1 has_country_flag = exclusive_music }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 has_country_flag = exclusive_music }
 		
-		modifier = { factor = -1 is_greater_power = no }
+		modifier = { factor = 0 is_greater_power = no }
 		modifier = { factor = 4 tag = GER } #German gets Wagner more often
 		modifier = { factor = 4 tag = PRU }
 	}
@@ -233,8 +233,8 @@ song = {
 	name = "War/Wagner - Ride of the Valkyries.mp3"
 	chance = {
 		modifier = { factor = 0.1 war = yes } # This one is way too gliche, but it's too good NOT to have
-		modifier = { factor = -1 war = no }
-		odifier = { factor = -1 has_country_flag = exclusive_music }
+		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 has_country_flag = exclusive_music }
 
 		modifier = { factor = 5 tag = GER }
 		modifier = { factor = 5 tag = PRU }
@@ -245,8 +245,8 @@ song = {
 	name = "War/Villa Lobos - Lembrancas do sertao.mp3"
 	chance = {
 		modifier = { factor = 10 war = yes }
-		modifier = { factor = -1 war = no }
-		modifier = { factor = -1 has_country_flag = exclusive_music }
+		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 has_country_flag = exclusive_music }
 
 		modifier = { factor = 1.5 tag = BRZ }
 	}
@@ -256,11 +256,8 @@ song = {
 	name = "War/Vivaldi - 06 Concerto No. 2 in G Minor, RV 315 Summer III. Presto.mp3"
 	chance = {
 		modifier = { factor = 10 war = yes }
-		modifier = { factor = -1 war = no }
-		odifier = { factor = -1 has_country_flag = exclusive_music }
-
-		modifier = { factor = 1.5 accepted_culture = north_italian }
-		modifier = { factor = 1.5 accepted_culture = north_italian }
+		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 has_country_flag = exclusive_music }
 	}
 }
 
@@ -268,8 +265,8 @@ song = {
 	name = "War/Theodoro Valcarel - Concierto indio IV. Danzante, assai agitato.mp3"
 	chance = {
 		modifier = { factor = 10 war = yes }
-		modifier = { factor = -1 war = no }
-		modifier = { factor = -1 has_country_flag = exclusive_music }
+		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 has_country_flag = exclusive_music }
 
 		modifier = { factor = 2 has_country_flag = latin_america_music }
 	}
@@ -279,8 +276,8 @@ song = {
 	name = "War/Dvorak - From the New World - 1.mp3"
 	chance = {
 		modifier = { factor = 10 war = yes }
-		modifier = { factor = -1 war = no }
-		modifier = { factor = -1 has_country_flag = exclusive_music }
+		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 has_country_flag = exclusive_music }
 	}
 }
 
@@ -296,10 +293,10 @@ song = {
 	name = "Brazil/Garota de Ipanema.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		modifier = { factor = -1 is_greater_power = no }
-		modifier = { factor = -1 NOT = { tag = BRZ } }
-		modifier = { factor = -1 NOT = { year = 1900 } }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 is_greater_power = no }
+		modifier = { factor = 0 NOT = { tag = BRZ } }
+		modifier = { factor = 0 NOT = { year = 1900 } }
 	}
 }
 
@@ -318,8 +315,8 @@ song = {
 	chance = {
 		modifier = { factor = 1 }
 		modifier = { factor = 1000 NOT = { has_country_flag = exclusive_music } }
-		modifier = { factor = -1 war = yes }
-		modifier = { factor = -1 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 NOT = { primary_culture = japanese } }
 		modifier = { factor = 0.5 civilized = yes }
 	}
 }
@@ -328,9 +325,9 @@ song = {
 	name = "Japan/Peace/Haru No Umi - 2.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		#modifier = { factor = -1 NOT = { primary_culture = japanese } }
-		modifier = { factor = -1 NOT = { has_country_flag = asian_music } }
+		modifier = { factor = 0 war = yes }
+		#modifier = { factor = 0 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0 NOT = { has_country_flag = asian_music } }
 		modifier = { factor = 0.5 civilized = yes }
 	}
 }
@@ -339,9 +336,9 @@ song = {
 	name = "Japan/Peace/Godanginuta - 1.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		#modifier = { factor = -1 NOT = { primary_culture = japanese } }
-		modifier = { factor = -1 NOT = { has_country_flag = asian_music } }
+		modifier = { factor = 0 war = yes }
+		#modifier = { factor = 0 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0 NOT = { has_country_flag = asian_music } }
 		modifier = { factor = 0.1 civilized = yes }
 	}
 }
@@ -350,9 +347,9 @@ song = {
 	name = "Japan/Peace/Godanginuta - 2.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		#modifier = { factor = -1 NOT = { primary_culture = japanese } }
-		modifier = { factor = -1 NOT = { has_country_flag = asian_music } }
+		modifier = { factor = 0 war = yes }
+		#modifier = { factor = 0 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0 NOT = { has_country_flag = asian_music } }
 		modifier = { factor = 0.1 civilized = yes }
 	}
 }
@@ -361,9 +358,9 @@ song = {
 	name = "Japan/Peace/Godanginuta - 3.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		#modifier = { factor = -1 NOT = { primary_culture = japanese } }
-		modifier = { factor = -1 NOT = { has_country_flag = asian_music } }
+		modifier = { factor = 0 war = yes }
+		#modifier = { factor = 0 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0 NOT = { has_country_flag = asian_music } }
 		modifier = { factor = 0.1 civilized = yes }
 	}
 }
@@ -372,9 +369,9 @@ song = {
 	name = "Japan/Peace/Godanginuta - 4.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		#modifier = { factor = -1 NOT = { primary_culture = japanese } }
-		modifier = { factor = -1 NOT = { has_country_flag = asian_music } }
+		modifier = { factor = 0 war = yes }
+		#modifier = { factor = 0 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0 NOT = { has_country_flag = asian_music } }
 		modifier = { factor = 0.1 civilized = yes }
 	}
 }
@@ -383,9 +380,9 @@ song = {
 	name = "Japan/Peace/Tegoto - 1.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		#modifier = { factor = -1 NOT = { primary_culture = japanese } }
-		modifier = { factor = -1 NOT = { has_country_flag = asian_music } }
+		modifier = { factor = 0 war = yes }
+		#modifier = { factor = 0 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0 NOT = { has_country_flag = asian_music } }
 		modifier = { factor = 0.2 civilized = yes }
 	}
 }
@@ -394,24 +391,24 @@ song = {
 # Kinda hard to do honestly
 
 song = {
-	name = "Japan/Peace/The Plight of the Samurai - 1.mp3"  #This one has low quality, gotta find a better version
+	name = "Japan/War/The Plight of the Samurai - 1.mp3"  #This one has low quality, gotta find a better version
 	chance = {
 		modifier = { factor = 10 war = yes }
-		modifier = { factor = -1 war = no }
-		#modifier = { factor = -1 NOT = { primary_culture = japanese } }
-		modifier = { factor = -1 NOT = { has_country_flag = asian_music } }
-		modifier = { factor = -1 civilized = yes }
+		modifier = { factor = 0 war = no }
+		#modifier = { factor = 0 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0 NOT = { has_country_flag = asian_music } }
+		modifier = { factor = 0 civilized = yes }
 	}
 }
 
 song = {
-	name = "Japan/Peace/The Plight of the Samurai - 2.mp3"
+	name = "Japan/War/The Plight of the Samurai - 2.mp3"
 	chance = {
 		modifier = { factor = 10 war = yes }
-		modifier = { factor = -1 war = no }
-		#modifier = { factor = -1 NOT = { primary_culture = japanese } }
-		modifier = { factor = -1 NOT = { has_country_flag = asian_music } }
-		modifier = { factor = -1 civilized = yes }
+		modifier = { factor = 0 war = no }
+		#modifier = { factor = 0 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0 NOT = { has_country_flag = asian_music } }
+		modifier = { factor = 0 civilized = yes }
 	}
 }
 
@@ -419,9 +416,9 @@ song = {
 	name = "Japan/War/Tegoto - 2.mp3"
 	chance = {
 		modifier = { factor = 10 war = yes }
-		modifier = { factor = -1 war = no }
-		#modifier = { factor = -1 NOT = { primary_culture = japanese } }
-		modifier = { factor = -1 NOT = { has_country_flag = asian_music } }
+		modifier = { factor = 0 war = no }
+		#modifier = { factor = 0 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0 NOT = { has_country_flag = asian_music } }
 		modifier = { factor = 0.5 civilized = yes }
 	}
 }
@@ -430,10 +427,10 @@ song = {
 	name = "Japan/War/Koto Concerto - Genji IV - Floating Bridge of Dreams.mp3"
 	chance = {
 		modifier = { factor = 20 war = yes }
-		modifier = { factor = -1 war = no }
-		#modifier = { factor = -1 NOT = { primary_culture = japanese } }
-		modifier = { factor = -1 NOT = { has_country_flag = asian_music } }
-		modifier = { factor = -1 civilized = no }
+		modifier = { factor = 0 war = no }
+		#modifier = { factor = 0 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0 NOT = { has_country_flag = asian_music } }
+		modifier = { factor = 0 civilized = no }
 	}
 }
 
@@ -441,10 +438,10 @@ song = {
 	name = "Japan/War/Doki no sakura.mp3"
 	chance = {
 		modifier = { factor = 10 war = yes }
-		modifier = { factor = -1 war = no }
-		modifier = { factor = -1 civilized = no }
-		#modifier = { factor = -1 NOT = { primary_culture = japanese } }
-		modifier = { factor = -1 NOT = { has_country_flag = asian_music } }
+		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 civilized = no }
+		#modifier = { factor = 0 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0 NOT = { has_country_flag = asian_music } }
 	}
 }  
 
@@ -458,10 +455,10 @@ song = {
 	name = "Japan/Peace/Inno Meiji - Kosaku Yamada - 1.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		#modifier = { factor = -1 NOT = { primary_culture = japanese } }
-		modifier = { factor = -1 NOT = { has_country_flag = asian_music } }
-		modifier = { factor = -1 civilized = no }
+		modifier = { factor = 0 war = yes }
+		#modifier = { factor = 0 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0 NOT = { has_country_flag = asian_music } }
+		modifier = { factor = 0 civilized = no }
 	}
 }
 
@@ -469,10 +466,10 @@ song = {
 	name = "Japan/Peace/Inno Meiji - Kosaku Yamada - 2.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		#modifier = { factor = -1 NOT = { primary_culture = japanese } }
-		modifier = { factor = -1 NOT = { has_country_flag = asian_music } }
-		modifier = { factor = -1 civilized = no }
+		modifier = { factor = 0 war = yes }
+		#modifier = { factor = 0 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0 NOT = { has_country_flag = asian_music } }
+		modifier = { factor = 0 civilized = no }
 	}
 }
 
@@ -480,10 +477,10 @@ song = {
 	name = "Japan/Peace/Inno Meiji - Kosaku Yamada - 3.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		#modifier = { factor = -1 NOT = { primary_culture = japanese } }
-		modifier = { factor = -1 NOT = { has_country_flag = asian_music } }
-		modifier = { factor = -1 civilized = no }
+		modifier = { factor = 0 war = yes }
+		#modifier = { factor = 0 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0 NOT = { has_country_flag = asian_music } }
+		modifier = { factor = 0 civilized = no }
 	}
 }
 
@@ -491,10 +488,10 @@ song = {
 	name = "Japan/Peace/Inno Meiji - Kosaku Yamada - 4.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		#modifier = { factor = -1 NOT = { primary_culture = japanese } }
-		modifier = { factor = -1 NOT = { has_country_flag = asian_music } }
-		modifier = { factor = -1 civilized = no }
+		modifier = { factor = 0 war = yes }
+		#modifier = { factor = 0 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0 NOT = { has_country_flag = asian_music } }
+		modifier = { factor = 0 civilized = no }
 	}
 }
 
@@ -502,10 +499,10 @@ song = {
 	name = "Japan/Peace/Koto Concerto - Genji III - Maiden on the Bridge.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		#modifier = { factor = -1 NOT = { primary_culture = japanese } }
-		modifier = { factor = -1 NOT = { has_country_flag = asian_music } }
-		modifier = { factor = -1 civilized = no }
+		modifier = { factor = 0 war = yes }
+		#modifier = { factor = 0 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0 NOT = { has_country_flag = asian_music } }
+		modifier = { factor = 0 civilized = no }
 	}
 }
 
@@ -513,10 +510,10 @@ song = {
 	name = "Japan/Peace/Koto Concerto - Genji I - Cicada Shell.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		#modifier = { factor = -1 NOT = { primary_culture = japanese } }
-		modifier = { factor = -1 NOT = { has_country_flag = asian_music } }
-		modifier = { factor = -1 civilized = no }
+		modifier = { factor = 0 war = yes }
+		#modifier = { factor = 0 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0 NOT = { has_country_flag = asian_music } }
+		modifier = { factor = 0 civilized = no }
 	}
 }
 
@@ -524,10 +521,10 @@ song = {
 	name = "Japan/Peace/Koto Concerto - Genji V - Vanished Into the Clouds.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = -1 war = yes }
-		#modifier = { factor = -1 NOT = { primary_culture = japanese } }
-		modifier = { factor = -1 NOT = { has_country_flag = asian_music } }
-		modifier = { factor = -1 civilized = no }
+		modifier = { factor = 0 war = yes }
+		#modifier = { factor = 0 NOT = { primary_culture = japanese } }
+		modifier = { factor = 0 NOT = { has_country_flag = asian_music } }
+		modifier = { factor = 0 civilized = no }
 	}
 }
 
@@ -540,8 +537,8 @@ song = {
 	name = "Mongolia/In Praise of Gengis Khan.mp3"
 	chance = {
 		modifier = { factor = 10 war = yes }
-		modifier = { factor = -1 war = no }
-		modifier = { factor = -1 NOT = { tag = MGL } }
+		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 NOT = { tag = MGL } }
 	}
 }
 
@@ -554,8 +551,8 @@ song = {
 	name = "Latin America/Andean/El Condor Pasa.mp3"
 	chance = {
 		modifier = { factor = 2 }
-		modifier = { factor = -1 war = no }
-		modifier = { factor = -1 NOT = { has_country_flag = andean_music } }
+		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 NOT = { has_country_flag = andean_music } }
 	}
 }
 
@@ -563,36 +560,27 @@ song = {
 	name = "Latin America/Andean/Tarantela D'Apres Lucas Ruiz De Ribayaz.mp3"
 	chance = {
 		modifier = { factor = 2 }
-		modifier = { factor = -1 war = no }
-		modifier = { factor = -1 NOT = { has_country_flag = andean_music } }
+		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 NOT = { has_country_flag = andean_music } }
 	}
 }
 
-song = {
-	name = "Latin America/Andean/Xacaras - Lucas Ruiz de Ribayaz.mp3"
-	chance = {
-		modifier = { factor = 2 }
-		modifier = { factor = -1 war = no }
-		modifier = { factor = -1 NOT = { has_country_flag = andean_music } }
-		modifier = { factor = 2 OR = { government = fascist_dictatorship government = absolute_monarchy government = presidential_dictatorship } }
-	}
-}
-
-song = {
-	name = "Latin America/Andean/Lanchas para Baylar.mp3"
-	chance = {
-		modifier = { factor = 2 }
-		modifier = { factor = -1 war = no }
-		modifier = { factor = -1 NOT = { has_country_flag = andean_music } }
-	}
-}
+# song = {
+# 	name = "Latin America/Andean/Xacaras - Lucas Ruiz de Ribayaz.mp3"
+# 	chance = {
+# 		modifier = { factor = 2 }
+# 		modifier = { factor = 0 war = no }
+# 		modifier = { factor = 0 NOT = { has_country_flag = andean_music } }
+# 		modifier = { factor = 2 OR = { government = fascist_dictatorship government = absolute_monarchy government = presidential_dictatorship } }
+# 	}
+# }
 
 song = {
 	name = "Latin America/Andean/Lanchas para Baylar.mp3"
 	chance = {
 		modifier = { factor = 2 }
-		modifier = { factor = -1 war = no }
-		modifier = { factor = -1 NOT = { has_country_flag = andean_music } }
+		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 NOT = { has_country_flag = andean_music } }
 	}
 }
 
@@ -600,10 +588,10 @@ song = {
 	name = "Latin America/Andean/Juan de Araujo - Recordad Jilguerillos.mp3"
 	chance = {
 		modifier = { factor = 2 }
-		modifier = { factor = -1 war = no }
-		modifier = { factor = -1 is_greater_power = no}
-		modifier = { factor = -1 NOT = { OR = { government = absolute_monarchy government = fascist_dictatorship } } }
-		modifier = { factor = -1 NOT = { has_country_flag = andean_music } }
+		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 is_greater_power = no}
+		modifier = { factor = 0 NOT = { OR = { government = absolute_monarchy government = fascist_dictatorship } } }
+		modifier = { factor = 0 NOT = { has_country_flag = andean_music } }
 	}
 }
 
@@ -612,7 +600,7 @@ song = {
 	chance = {
 		modifier = { factor = 5 }
 		modifier = { factor = 0.1 year = 1865 }
-		modifier = { factor = -1 war = yes }
+		modifier = { factor = 0 war = yes }
 	}
 }
 
