@@ -10,7 +10,7 @@ country_event = {
 		fire_only_once = yes
 
 		option = {
-			name = "nice!"
+			name = "AIEVENT"
 			any_country = { 
 				limit = {                               #YES, this is extremely generic still. Mongolia shouldnt be listening to japanese music at all.
 					OR = {
@@ -26,10 +26,8 @@ country_event = {
 						accepted_culture = malay
 						accepted_culture = burmese
 						accepted_culture = karen
-						accepted_culture = dajak
 						accepted_culture = thai
 						accepted_culture = tamil
-						accepted_culture = mahayana
 						accepted_culture = tibetan
 					}
 				}
@@ -51,7 +49,7 @@ country_event = {
 			any_country = { 
 				limit = {       
 					OR = {
-						accepted_culture = argentinean
+						accepted_culture = argentine
 						accepted_culture = paraguayan
 						accepted_culture = chilean
 						accepted_culture = colombian
