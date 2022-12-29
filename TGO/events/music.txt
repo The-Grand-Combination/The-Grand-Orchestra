@@ -14,21 +14,21 @@ country_event = {
 			any_country = { 
 				limit = {                               #YES, this is extremely generic still. Mongolia shouldnt be listening to japanese music at all.
 					OR = {
-						accepted_culture = japanese
-						accepted_culture = han_chinese
-						accepted_culture = manchu
-						accepted_culture = korean
-						accepted_culture = mongol
-						accepted_culture = hakka
-						accepted_culture = yue
-						accepted_culture = yi
-						accepted_culture = hanhui
-						accepted_culture = malay
-						accepted_culture = burmese
-						accepted_culture = karen
-						accepted_culture = thai
-						accepted_culture = tamil
-						accepted_culture = tibetan
+						primary_culture = japanese
+						primary_culture = han_chinese
+						primary_culture = manchu
+						primary_culture = korean
+						primary_culture = mongol
+						primary_culture = hakka
+						primary_culture = yue
+						primary_culture = yi
+						primary_culture = hanhui
+						primary_culture = malay
+						primary_culture = burmese
+						primary_culture = karen
+						primary_culture = thai
+						primary_culture = tamil
+						primary_culture = tibetan
 					}
 				}
 				set_country_flag = asian_music
@@ -38,9 +38,9 @@ country_event = {
 			any_country = { 
 				limit = {       
 					OR = {
-						accepted_culture = peruvian
-						accepted_culture = bolivian
-						accepted_culture = ecuadorian
+						primary_culture = peruvian
+						primary_culture = bolivian
+						primary_culture = ecuadorian
 					}
 				}
 				set_country_flag = andean_music
@@ -49,11 +49,11 @@ country_event = {
 			any_country = { 
 				limit = {       
 					OR = {
-						accepted_culture = argentinian
-						accepted_culture = paraguayan
-						accepted_culture = chilean
-						accepted_culture = colombian
-						accepted_culture = venezuelan
+						primary_culture = argentinian
+						primary_culture = paraguayan
+						primary_culture = chilean
+						primary_culture = colombian
+						primary_culture = venezuelan
 					}
 				}
 				set_country_flag = latin_america_music
