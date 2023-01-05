@@ -1,5 +1,5 @@
 ![Orchestra](https://user-images.githubusercontent.com/32886642/209884261-069d70e1-997f-4152-a99a-c6b527ea6fd2.png)
-![dance](https://user-images.githubusercontent.com/32886642/209893793-484bb5c8-cb78-4e37-868b-d5f6da8e6b6d.png)
+![HighClassBanner](https://user-images.githubusercontent.com/32886642/210163089-ef31d871-e4a6-43c1-b78b-0d3430ef0887.png)
 
 TGA, The Grand Orchestra, is TGC's official music sub mod! 
 Hours of carefully curated classical music to enchance your Victoria II gameplay. Each music was carefully choosen, and assigned special playing conditions, from war, peace, country, culture, even war exhaustion and level of westernization!
