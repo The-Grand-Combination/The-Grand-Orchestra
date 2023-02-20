@@ -228,7 +228,6 @@ song = {
 		modifier = { factor = 0.1 war = yes } # This one is way too gliche, but it's too good NOT to have
 		modifier = { factor = 0 war = no }
 		modifier = { factor = 0 has_country_flag = exclusive_music }
-
 		modifier = { factor = 5 tag = GER }
 		modifier = { factor = 5 tag = PRU }
 	}
@@ -240,7 +239,6 @@ song = {
 		modifier = { factor = 10 war = yes }
 		modifier = { factor = 0 war = no }
 		modifier = { factor = 0 has_country_flag = exclusive_music }
-
 		modifier = { factor = 2 OR = { tag = BRZ tag = KPB } }
 	}
 }
@@ -552,7 +550,7 @@ song = {
 	name = "Latin America/Peru/El Condor Pasa.mp3"
 	chance = {
 		modifier = { factor = 2 }
-		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 war = yes }
 		modifier = { factor = 0 NOT = { has_country_flag = andean_music } }
 		modifier = { factor = 0 has_country_flag = exclusive_music }
 	}
@@ -562,7 +560,7 @@ song = {
 	name = "Latin America/Peru/El Condor Pasa Extended.mp3"
 	chance = {
 		modifier = { factor = 0.1 }
-		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 war = yes }
 		modifier = { factor = 0 NOT = { has_country_flag = andean_music } }
 		modifier = { factor = 0 has_country_flag = exclusive_music }
 	}
@@ -573,7 +571,7 @@ song = {
 	chance = {
 		modifier = { factor = 2 }
 		modifier = { factor = 0 NOT = { primary_culture = peruvian } }
-		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 war = yes }
 		modifier = { factor = 0 has_country_flag = exclusive_music }
 	}
 }
@@ -583,7 +581,7 @@ song = {
 	chance = {
 		modifier = { factor = 2 }
 		modifier = { factor = 0 NOT = { primary_culture = peruvian } }
-		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 war = yes }
 		modifier = { factor = 0 has_country_flag = exclusive_music }
 	}
 }
@@ -594,7 +592,7 @@ song = {
 		modifier = { factor = 2 }
 		modifier = { factor = 3 primary_culture = peruvian }
 		modifier = { factor = 0 NOT = { has_country_flag = andean_music } }
-		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 war = yes }
 		modifier = { factor = 0 has_country_flag = exclusive_music }
 	}
 }
@@ -602,7 +600,7 @@ song = {
 song = {
 	name = "Latin America/Peru/Xacaras - Lucas Ruiz de Ribayaz.mp3"
 	chance = {
-		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 war = yes }
 		modifier = { factor = 2 primary_culture = peruvian }
 		modifier = { factor = 2 primary_culture = spanish }
 		modifier = { factor = 2 OR = { government = fascist_dictatorship government = absolute_monarchy government = presidential_dictatorship } }
@@ -614,7 +612,7 @@ song = {
 	name = "Latin America/Peru/Lanchas para Baylar.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 war = yes }
 		modifier = { factor = 0 NOT = { has_country_flag = andean_music } }
 		modifier = { factor = 0 has_country_flag = exclusive_music }
 	}
@@ -626,8 +624,8 @@ song = {
 		modifier = { factor = 1 }
 		modifier = { factor = 5 primary_culture = peruvian }
 		modifier = { factor = 1 primary_culture = spanish }
-		modifier = { factor = 0 war = no }
-		modifier = { factor = 0 is_greater_power = no}
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 is_greater_power = no }
 		modifier = { factor = 0 NOT = { OR = { government = absolute_monarchy government = fascist_dictatorship } } }
 		modifier = { factor = 0 NOT = { has_country_flag = andean_music } }
 		modifier = { factor = 0 has_country_flag = exclusive_music }
