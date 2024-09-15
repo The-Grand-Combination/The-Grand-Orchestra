@@ -947,14 +947,14 @@ song = {
 		modifier = { factor = 2 }
 		modifier = { factor = 0 war = yes }
 		modifier = { factor = 0 has_country_flag = exclusive_music }
-		modifier = { factor = 0 NOT = { primary_culture = argentinian } }
+		modifier = { factor = 0.1 NOT = { primary_culture = argentinian } }
 	}
 } 
 
 song = {
 	name = "Latin America/Argentina/Gato folclore.mp3"
 	chance = {
-		modifier = { factor = 2 }
+		modifier = { factor = 0.2 }
 		modifier = { factor = 0 war = yes }
 		modifier = { factor = 0 has_country_flag = exclusive_music }
 		modifier = { factor = 0 NOT = { primary_culture = argentinian } }
