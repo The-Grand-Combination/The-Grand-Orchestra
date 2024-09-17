@@ -57,14 +57,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = brazilian_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = brazilian_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 
 		modifier = { factor = 2 OR = { primary_culture = brazilian tag = KPB } }	# Brazil gets Villa Lobos more often
@@ -79,14 +78,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = brazilian_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = brazilian_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 
 		modifier = { factor = 2 OR = { primary_culture = brazilian tag = KPB } }
@@ -101,14 +99,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = brazilian_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = brazilian_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 		modifier = { factor = 0 is_greater_power = no NOT = { has_country_flag = generic_songs_enabled } } # This one is too epic, great power only
 
@@ -125,14 +122,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = brazilian_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = brazilian_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 
 		modifier = { factor = 2 OR = { primary_culture = brazilian tag = KPB } }	
@@ -147,14 +143,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = brazilian_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = brazilian_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 
 		modifier = { factor = 2 OR = { primary_culture = brazilian tag = KPB } }
@@ -171,14 +166,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = brazilian_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = brazilian_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 		
 		modifier = { factor = 5 war_exhaustion = 20 }  # This is sad and slow, so it will more often when war exhaustion is high after a war
@@ -194,14 +188,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = brazilian_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = brazilian_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 		modifier = { factor = 5 war_exhaustion = 20 }
 		modifier = { factor = 1.5 OR = { primary_culture = brazilian tag = KPB } }
@@ -216,14 +209,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = generic_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = generic_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 		modifier = { factor = 2 is_primary_culture = peruvian }
 		modifier = { factor = 2 capital_scope = { continent = south_america } NOT = { primary_culture = brazilian } }
@@ -238,14 +230,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = generic_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = generic_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 		modifier = { factor = 2 war_exhaustion = 10 }
 		modifier = { factor = 2 is_primary_culture = peruvian }
@@ -261,14 +252,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = generic_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = generic_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 	}
 }
@@ -281,14 +271,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = generic_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = generic_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 	}
 }
@@ -302,14 +291,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = generic_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = generic_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 	}
 }
@@ -323,14 +311,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = generic_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = generic_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 	}
 }
@@ -343,14 +330,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = generic_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = generic_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 		modifier = { factor = 3 is_primary_culture = french }
 		modifier = { factor = 0 is_greater_power = no NOT = { has_country_flag = song_bypass } }  # This part sounds way too epic, so Great Power only
@@ -365,14 +351,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = brazilian_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = brazilian_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 		
 		modifier = { factor = 0 is_greater_power = no NOT = { has_country_flag = song_bypass } }
@@ -388,14 +373,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = brazilian_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = brazilian_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 		
 		modifier = { factor = 0 OR = { has_country_flag = monarchy_gov has_country_flag = song_bypass } } #Nepomuceno was a BIG anti monarchy guy
@@ -411,14 +395,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = brazilian_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = brazilian_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 		modifier = { factor = 0 OR = { has_country_flag = monarchy_gov has_country_flag = song_bypass } } #Nepomuceno was a BIG anti monarchy guy
 		modifier = { factor = 2 primary_culture = brazilian }
@@ -434,14 +417,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = brazilian_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = brazilian_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 		modifier = { factor = 0 NOT = { year = 1900 has_country_flag = song_bypass } }
 		modifier = { factor = 0 is_greater_power = no NOT = { has_country_flag = song_bypass } }
@@ -463,14 +445,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = brazilian_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = brazilian_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 		modifier = { factor = 5 is_culture_group = german }
 		modifier = { factor = 5 tag = PRU }
@@ -485,14 +466,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = brazilian_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = brazilian_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 		modifier = { factor = 2 OR = { primary_culture = brazilian tag = KPB } }
 	}
@@ -506,14 +486,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = brazilian_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = brazilian_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 	}
 }
@@ -526,14 +505,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = brazilian_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = brazilian_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 		modifier = { factor = 2 is_primary_culture = peruvian }
 		modifier = { factor = 2 capital_scope = { continent = south_america } NOT = { primary_culture = brazilian } }
@@ -548,14 +526,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = brazilian_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = brazilian_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 	}
 }
@@ -569,14 +546,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = brazilian_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = brazilian_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 	}
 }
@@ -590,14 +566,13 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = brazilian_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = brazilian_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 	}
 }
@@ -1112,14 +1087,12 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = peruvian_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = peruvian_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian	
+			}
 		}
 	}
 }
@@ -1186,14 +1159,12 @@ song = {
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
 			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = peruvian_songs_enabled
-				}
-			} 
+			NOT = { has_country_flag = peruvian_songs_enabled }
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian	
+			}
 		}
 	}
 }
@@ -1234,7 +1205,7 @@ song = {
 	name = "Latin America/Bolivia/Sonata Chiquitana IV - Allegro.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = 2 primary_culture = bolivian has_country_flag = bolivian_songs_enabled }
+		modifier = { factor = 2 OR = { primary_culture = bolivian has_country_flag = bolivian_songs_enabled } }
 		modifier = { factor = 0 war = yes NOT = { has_country_flag = warsong_bypass } }
 	}
 }
@@ -1243,7 +1214,7 @@ song = {
 	name = "Latin America/Bolivia/Sonata Chiquitana IV - Andante.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = 2 primary_culture = bolivian has_country_flag = bolivian_songs_enabled }
+		modifier = { factor = 2 OR = { primary_culture = bolivian has_country_flag = bolivian_songs_enabled } }
 		modifier = { factor = 0 war = yes NOT = { has_country_flag = warsong_bypass } }
 	}
 }
@@ -1252,7 +1223,7 @@ song = {
 	name = "Latin America/Bolivia/Sonata Chiquitana IV - Minueto.mp3"
 	chance = {
 		modifier = { factor = 1 }
-		modifier = { factor = 2 primary_culture = bolivian has_country_flag = bolivian_songs_enabled }
+		modifier = { factor = 2 OR = { primary_culture = bolivian has_country_flag = bolivian_songs_enabled } }
 		modifier = { factor = 0 war = yes NOT = { has_country_flag = warsong_bypass } }
 	}
 }
@@ -1278,15 +1249,14 @@ song = {
 		modifier = { factor = 0 war = yes NOT = { has_country_flag = warsong_bypass } }
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
-			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = argentinian_songs_enabled
-				}
-			} 
+			factor = 0 
+			NOT = { has_country_flag = argentinian_songs_enabled }			
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
 		}
 		modifier = { factor = 0.1 NOT = { primary_culture = argentinian has_country_flag = argentinian_songs_enabled } }
 	}
@@ -1299,15 +1269,15 @@ song = {
 		modifier = { factor = 0 war = yes NOT = { has_country_flag = warsong_bypass } }
 		modifier = { factor = 0 has_country_flag = asian_songs_only }
 		modifier = { #Exclusive music groups
-			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = argentinian_songs_enabled
-				}
-			} 
+			factor = 0 
+			NOT = { has_country_flag = argentinian_songs_enabled }			
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
+		}
 		}
 		modifier = { factor = 0.1 NOT = { primary_culture = argentinian has_country_flag = argentinian_songs_enabled } }
 	}
@@ -1318,17 +1288,17 @@ song = {
 	chance = {
 		modifier = { factor = 0.2 }
 		modifier = { factor = 0 war = yes NOT = { has_country_flag = warsong_bypass } }
-		modifier = { factor = 0 has_country_flag = asian_songs_only }
+		modifier = { factor = 0 has_country_flag = asian_songs_only }		
 		modifier = { #Exclusive music groups
-			factor = 0 			
-			NOT = {
-				OR = {
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = southeast_asian
-					has_country_flag = argentinian_songs_enabled
-				}
-			} 
+			factor = 0 
+			NOT = { has_country_flag = argentinian_songs_enabled }			
+			OR = {
+				is_culture_group = far_east_asian
+				is_culture_group = east_asian
+				is_culture_group = southeast_asian
+				
+			}
+		}
 		}
 		modifier = { factor = 0 NOT = { primary_culture = argentinian has_country_flag = argentinian_songs_enabled } }
 	}
