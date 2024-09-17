@@ -382,7 +382,7 @@ country_event = {
 				}
 			}
 			owner = {
-				set_country_flag = generic_songs_enabled
+				set_country_flag = argentinian_songs_enabled
 				set_country_flag = setting_changed 
 				currently_disabled = { } 
 			}
@@ -421,7 +421,7 @@ country_event = {
 				}
 			}
 			owner = {
-				set_country_flag = brazilian_songs_enabled
+				set_country_flag = asian_songs_only
 				set_country_flag = setting_changed 
 				currently_disabled = { } 
 			}
