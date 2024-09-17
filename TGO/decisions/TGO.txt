@@ -1,0 +1,16 @@
+political_decisions = {
+
+    tgo_menu = {
+        picture = tgo_menu
+    
+        potential = { 
+            ai = no
+        }
+    
+        effect = {
+         country_event = 74   
+        }
+    }
+
+
+}

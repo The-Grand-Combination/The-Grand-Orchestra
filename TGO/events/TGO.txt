@@ -1,0 +1,456 @@
+#TGO menu, 1
+country_event = {
+	id = 74
+	title = "EVTNAME74"
+	desc = "EVTDESC74"
+	picture = tgo
+
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+
+	option = {
+		name = "EVTOPTA74"
+		random_owned = {
+			limit = {
+				owner = { 
+					NOT = { has_country_flag = all_songs_enabled }
+					NOT = { has_country_flag = setting_changed } 
+				}
+			}
+			owner = {
+				set_country_flag = all_songs_enabled
+				set_country_flag = generic_songs_enabled
+				set_country_flag = asian_songs_enabled
+				set_country_flag = peruvian_songs_enabled
+				set_country_flag = bolivian_songs_enabled
+				set_country_flag = brazilian_songs_enabled
+				set_country_flag = argentinian_songs_enabled
+				set_country_flag = song_bypass
+				set_country_flag = war_song_bypass
+				clr_country_flag = asian_songs_only
+				set_country_flag = setting_changed 
+				currently_disabled = { } 
+			}
+		}
+
+		random_owned = {
+			limit = {
+				owner = { 
+					has_country_flag = all_songs_enabled 
+					NOT = { has_country_flag = setting_changed } 
+				}
+			}
+			owner = { 
+				clr_global_flag = all_songs_enabled
+				clr_country_flag = generic_songs_enabled
+				clr_country_flag = asian_songs_enabled
+				clr_country_flag = peruvian_songs_enabled
+				clr_country_flag = bolivian_songs_enabled
+				clr_country_flag = brazilian_songs_enabled
+				clr_country_flag = argentinian_songs_enabled
+				clr_country_flag = song_bypass
+				clr_country_flag = war_song_bypass
+				set_country_flag = setting_changed
+				currently_enabled = { } 
+			}
+		}
+
+		clr_country_flag = setting_changed
+		
+		set_country_flag = hidden_tooltip
+		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+						owner = { country_event = 74 }
+		}
+		clr_country_flag = hidden_tooltip
+	}
+
+	option = {
+		name = "EVTOPTC74"
+		random_owned = {
+			limit = {
+				owner = { 
+					NOT = { has_country_flag = song_bypass }
+					NOT = { has_country_flag = setting_changed } 
+				}
+			}
+			owner = {
+				set_country_flag = song_bypass
+				set_country_flag = setting_changed 
+				currently_disabled = { } 
+			}
+		}
+
+		random_owned = {
+			limit = {
+				owner = { 
+					has_country_flag = song_bypass 
+					NOT = { has_country_flag = setting_changed } 
+				}
+			}
+			owner = { 
+				clr_global_flag = song_bypass
+				set_country_flag = setting_changed
+				currently_enabled = { } 
+			}
+		}
+
+		clr_country_flag = setting_changed
+		
+		set_country_flag = hidden_tooltip
+		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+						owner = { country_event = 74 }
+		}
+		clr_country_flag = hidden_tooltip
+		
+	}
+
+	option = {
+		name = "EVTOPTB74"
+		random_owned = {
+			limit = {
+				owner = { 
+					NOT = { has_country_flag = war_songs_bypass }
+					NOT = { has_country_flag = setting_changed } 
+				}
+			}
+			owner = {
+				set_country_flag = war_songs_bypass
+				set_country_flag = setting_changed 
+				currently_disabled = { } 
+			}
+		}
+
+		random_owned = {
+			limit = {
+				owner = { 
+					has_country_flag = war_songs_bypass 
+					NOT = { has_country_flag = setting_changed } 
+				}
+			}
+			owner = { 
+				clr_global_flag = war_songs_bypass
+				set_country_flag = setting_changed
+				currently_enabled = { } 
+			}
+		}
+
+		clr_country_flag = setting_changed
+		
+		set_country_flag = hidden_tooltip
+		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+						owner = { country_event = 74 }
+		}
+		clr_country_flag = hidden_tooltip
+		
+	}
+
+	option = {
+		name = "EVTOPTD74"
+		random_owned = {
+			limit = {
+				owner = { 
+					NOT = { has_country_flag = asian_songs_enabled }
+					NOT = { has_country_flag = setting_changed } 
+				}
+			}
+			owner = {
+				set_country_flag = asian_songs_enabled
+				set_country_flag = setting_changed 
+				currently_disabled = { } 
+			}
+		}
+
+		random_owned = {
+			limit = {
+				owner = { 
+					has_country_flag = asian_songs_enabled 
+					NOT = { has_country_flag = setting_changed } 
+				}
+			}
+			owner = { 
+				clr_global_flag = asian_songs_enabled
+				set_country_flag = setting_changed
+				currently_enabled = { } 
+			}
+		}
+
+		clr_country_flag = setting_changed
+		
+		set_country_flag = hidden_tooltip
+		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+						owner = { country_event = 74 }
+		}
+		clr_country_flag = hidden_tooltip
+	}
+
+	option = {
+		name = "EVTNEXT"
+		country_event = 75
+	}
+}
+
+#TGO menu, 2
+country_event = {
+	id = 75
+	title = "EVTNAME75"
+	desc = "EVTDESC75"
+	picture = tgo
+
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+
+	option = {
+		name = "EVTOPTA75"
+		random_owned = {
+			limit = {
+				owner = { 
+					NOT = { has_country_flag = generic_songs_enabled }
+					NOT = { has_country_flag = setting_changed } 
+				}
+			}
+			owner = {
+				set_country_flag = generic_songs_enabled
+				set_country_flag = setting_changed 
+				currently_disabled = { } 
+			}
+		}
+
+		random_owned = {
+			limit = {
+				owner = { 
+					has_country_flag = generic_songs_enabled 
+					NOT = { has_country_flag = setting_changed } 
+				}
+			}
+			owner = { 
+				clr_global_flag = generic_songs_enabled
+				set_country_flag = setting_changed
+				currently_enabled = { } 
+			}
+		}
+
+		clr_country_flag = setting_changed
+		
+		set_country_flag = hidden_tooltip
+		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+						owner = { country_event = 75 }
+		}
+		clr_country_flag = hidden_tooltip
+	}
+
+	option = {
+		name = "EVTOPTB75"
+		random_owned = {
+			limit = {
+				owner = { 
+					NOT = { has_country_flag = brazilian_songs_enabled }
+					NOT = { has_country_flag = setting_changed } 
+				}
+			}
+			owner = {
+				set_country_flag = brazilian_songs_enabled
+				set_country_flag = setting_changed 
+				currently_disabled = { } 
+			}
+		}
+
+		random_owned = {
+			limit = {
+				owner = { 
+					has_country_flag = brazilian_songs_enabled 
+					NOT = { has_country_flag = setting_changed } 
+				}
+			}
+			owner = { 
+				clr_global_flag = brazilian_songs_enabled
+				set_country_flag = setting_changed
+				currently_enabled = { } 
+			}
+		}
+
+		clr_country_flag = setting_changed
+		
+		set_country_flag = hidden_tooltip
+		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+						owner = { country_event = 75 }
+		}
+		clr_country_flag = hidden_tooltip
+	}
+
+	option = {
+		name = "EVTOPTC75"
+		random_owned = {
+			limit = {
+				owner = { 
+					NOT = { has_country_flag = bolivian_songs_enabled }
+					NOT = { has_country_flag = setting_changed } 
+				}
+			}
+			owner = {
+				set_country_flag = bolivian_songs_enabled
+				set_country_flag = setting_changed 
+				currently_disabled = { } 
+			}
+		}
+
+		random_owned = {
+			limit = {
+				owner = { 
+					has_country_flag = bolivian_songs_enabled 
+					NOT = { has_country_flag = setting_changed } 
+				}
+			}
+			owner = { 
+				clr_global_flag = bolivian_songs_enabled
+				set_country_flag = setting_changed
+				currently_enabled = { } 
+			}
+		}
+
+		clr_country_flag = setting_changed
+		
+		set_country_flag = hidden_tooltip
+		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+						owner = { country_event = 75 }
+		}
+		clr_country_flag = hidden_tooltip
+		
+	}
+
+	option = {
+		name = "EVTOPTD75"
+		random_owned = {
+			limit = {
+				owner = { 
+					NOT = { has_country_flag = peruvian_songs_enabled }
+					NOT = { has_country_flag = setting_changed } 
+				}
+			}
+			owner = {
+				set_country_flag = peruvian_songs_enabled
+				set_country_flag = setting_changed 
+				currently_disabled = { } 
+			}
+		}
+
+		random_owned = {
+			limit = {
+				owner = { 
+					has_country_flag = peruvian_songs_enabled 
+					NOT = { has_country_flag = setting_changed } 
+				}
+			}
+			owner = { 
+				clr_global_flag = peruvian_songs_enabled
+				set_country_flag = setting_changed
+				currently_enabled = { } 
+			}
+		}
+
+		clr_country_flag = setting_changed
+		
+		set_country_flag = hidden_tooltip
+		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+						owner = { country_event = 75 }
+		}
+		clr_country_flag = hidden_tooltip
+	}
+
+	option = {
+		name = "EVTNEXT"
+		country_event = 76
+	}
+}
+
+#TGO menu, 3
+country_event = {
+	id = 76
+	title = "EVTNAME76"
+	desc = "EVTDESC76"
+	picture = tgo
+
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+
+	option = {
+		name = "EVTOPTA76"
+		random_owned = {
+			limit = {
+				owner = { 
+					NOT = { has_country_flag = argentinian_songs_enabled }
+					NOT = { has_country_flag = setting_changed } 
+				}
+			}
+			owner = {
+				set_country_flag = generic_songs_enabled
+				set_country_flag = setting_changed 
+				currently_disabled = { } 
+			}
+		}
+
+		random_owned = {
+			limit = {
+				owner = { 
+					has_country_flag = argentinian_songs_enabled 
+					NOT = { has_country_flag = setting_changed } 
+				}
+			}
+			owner = { 
+				clr_global_flag = argentinian_songs_enabled
+				set_country_flag = setting_changed
+				currently_enabled = { } 
+			}
+		}
+
+		clr_country_flag = setting_changed
+		
+		set_country_flag = hidden_tooltip
+		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+						owner = { country_event = 76 }
+		}
+		clr_country_flag = hidden_tooltip
+	}
+
+	option = {
+		name = "EVTOPTB76"
+		random_owned = {
+			limit = {
+				owner = { 
+					NOT = { has_country_flag = asian_songs_only }
+					NOT = { has_country_flag = setting_changed } 
+				}
+			}
+			owner = {
+				set_country_flag = brazilian_songs_enabled
+				set_country_flag = setting_changed 
+				currently_disabled = { } 
+			}
+		}
+
+		random_owned = {
+			limit = {
+				owner = { 
+					has_country_flag = asian_songs_only 
+					NOT = { has_country_flag = setting_changed } 
+				}
+			}
+			owner = { 
+				clr_global_flag = asian_songs_only
+				set_country_flag = setting_changed
+				currently_enabled = { } 
+			}
+		}
+
+		clr_country_flag = setting_changed
+		
+		set_country_flag = hidden_tooltip
+		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+						owner = { country_event = 76 }
+		}
+		clr_country_flag = hidden_tooltip
+	}
+
+	option = {
+		name = "EVTCLOSE"
+	}
+}
