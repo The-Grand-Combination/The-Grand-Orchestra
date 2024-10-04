@@ -409,7 +409,7 @@ song = {
 } 
 
 song = {
-	name = "Peace/Camargo Guarnieri - BrasÌlia - Energico trionfante.mp3"
+	name = "Peace/Camargo Guarnieri - Bras√≠lia - Energico trionfante.mp3"
 	chance = {
 		modifier = { factor = 1 }
 		modifier = { factor = 0 war = yes NOT = { has_country_flag = warsong_bypass } }
@@ -594,7 +594,7 @@ song = {
 }
 
 song = {
-	name = "Brazil/Cesar Guerra-Peixe, ClÛvis Pereira - Mour„o.mp3"
+	name = "Brazil/Cesar Guerra-Peixe, Cl√≥vis Pereira - Mour√£o.mp3"
 	chance = {
 		modifier = { factor = 0.5 }
 		modifier = { factor = 0 war = yes NOT = { has_country_flag = warsong_bypass } }
@@ -1268,7 +1268,7 @@ song = {
 # Argentina
 
 song = {
-	name = "Latin America/Argentina/Suite NorteÒa - ChamamÈ.mp3"
+	name = "Latin America/Argentina/Suite Norte√±a - Chamam√©.mp3"
 	chance = {
 		modifier = { factor = 2 }
 		modifier = { factor = 0 war = yes NOT = { has_country_flag = warsong_bypass } }
@@ -1288,7 +1288,7 @@ song = {
 } 
 
 song = {
-	name = "Latin America/Argentina/Suite NorteÒa, Chacarera.mp3"
+	name = "Latin America/Argentina/Suite Norte√±a, Chacarera.mp3"
 	chance = {
 		modifier = { factor = 2 }
 		modifier = { factor = 0 war = yes NOT = { has_country_flag = warsong_bypass } }
@@ -1308,7 +1308,7 @@ song = {
 } 
 
 song = {
-	name = "Latin America/Argentina/Vidala, Suite N1 de Impresiones NorteÒas.mp3"
+	name = "Latin America/Argentina/Vidala, Suite N1 de Impresiones Norte√±as.mp3"
 	chance = {
 		modifier = { factor = 2 }
 		modifier = { factor = 0 war = yes NOT = { has_country_flag = warsong_bypass } }
@@ -1348,7 +1348,3 @@ song = {
 		modifier = { factor = 0 NOT = { primary_culture = argentinian has_country_flag = argentinian_songs_enabled } }
 	}
 } 
-
-
-
-
