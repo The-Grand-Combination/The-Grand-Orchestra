@@ -1026,7 +1026,6 @@ song = {
 
 # Peru
 
-
 song = {
 	name = "Latin America/Peru/El Condor Pasa.mp3"
 	chance = {
@@ -1323,7 +1322,6 @@ song = {
 				
 			}
 		}
-		}
 		modifier = { factor = 0.2 NOT = { primary_culture = argentinian has_country_flag = argentinian_songs_enabled } }
 	}
 } 
@@ -1344,7 +1342,595 @@ song = {
 				
 			}
 		}
-		}
 		modifier = { factor = 0 NOT = { primary_culture = argentinian has_country_flag = argentinian_songs_enabled } }
 	}
 } 
+####################################################################################################################################
+
+# Russia
+
+song = {
+	name = "Russia/Peace/A.P. Borodin - Overture, from the opera Prince Igor, 1890.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/A.P. Borodin - Petite Suite, I. Au couvent, 1870 - 1885.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/A.P. Borodin - Petite Suite, II. Intermezzo, 1870 - 1885.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/A.P. Borodin - Petite Suite, III Mazurka I. Allegro, 1870 - 1885.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/A.P. Borodin - Petite Suite, IV. Mazurka II. Allegretto, 1870 - 1885.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/A.P. Borodin - Petite Suite, V. Rêverie, 1870 - 1885.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/A.P. Borodin - Petite Suite, VI. Serenade, 1870 - 1885.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/A.P. Borodin - Petite Suite, VII. Finale, Scherzo - Nocturne - Scherzo.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/A.P. Borodin - Polovtsian Dances, from the opera Prince Igor, 1890.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/A.P. Borodin - Symphony No.2 in C minor, II. Scherzo. Molto vivo, 1873.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/A.P. Borodin - Symphony No.2 in C minor, III. Andante, 1873.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/A.P. Borodin - Symphony No.2 in C minor, IV. Finale. Allegro, 1873.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/A.P. Borodin - Symphony No.3 I. Moderato assai. Poco piu mosso, 1886 - 1887.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/A.P. Borodin - Symphony No.3 II. Scherzo. Vivo, 1886 - 1887.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/A.S. Dargomizhskij - Baba Yaga or Volga nach Riga, 1870.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/A.S. Dargomizhskij - Chukhon Fantasia (based on Finnish melodies), 1869.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/A.S. Dargomizhskij - Melancholic Waltz, 1820.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.A Balakirev - Intermission to Act IV. Excerpt from King Lear.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.A Balakirev - Rus_, 1863-1864.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.A Balakirev - Symphony No.1 in C major, I. Largo — Allegro vivo, 1864-1866 & 1893-1897.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.A Balakirev - Symphony No.2 in D minor, 1900-1908.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.A Balakirev - Tamara, 1867-1882.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.I Glinka - Waltz from the opera Life for the Tsar, 1834–1836.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.I. Glinka  - Overture from the opera Life for the Tsar, 1834–1836.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.I. Glinka - Barcarolle in G-dur, 1847.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.I. Glinka - Bolero in D-moll, 1840.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.I. Glinka - Children´s polka in B-dur, 1854.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.I. Glinka - Entr_acte to Act IV. from Prince Kholmsky, 1840.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.I. Glinka - Krakowiak from the opera Life for the Tsar, 1834–1836.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.I. Glinka - Nocturne in Es-dur, 1828.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.I. Glinka - Overture to the opera Ruslan and Lyudmila, 1842.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.I. Glinka - Polka in D-moll, 1849.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.I. Glinka - Polonaise from the opera Life for the Tsar, 1834–1836.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.I. Glinka - Slavsya! From the opera Life for the Tsar, 1836.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.I. Glinka - Spanish Overture No.1, Capriccio Brilliante on the Jota Aragonesa, 1845.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.I. Glinka - Spanish Overture No.2, Recollection of a Summer Night in Madrid, 1851.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.P. Mussorgsky - Ballet of Unhatched Chicks, from Pictures at an Exhibition, 1874.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.P. Mussorgsky - Cum mortuis in lingua mortua, from Pictures at an Exhibition, 1874.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.P. Mussorgsky - Dawn on the Moskva River, from the opera Khovanshchina, 1872—1880.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.P. Mussorgsky - Hopak, from the opera Fair at Sorochyntsi, 1874 - 1880.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.P. Mussorgsky - Il vecchio castello, from Pictures at an Exhibition, 1874.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.P. Mussorgsky - In the Village, 1880.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.P. Mussorgsky - Limoges. Le marché. La grande nouvelle. From Pictures at an Exhibition.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.P. Mussorgsky - Promenade, from Pictures at an Exhibition, 1874.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/Peace/M.P. Mussorgsky - Tuileries. Dispute d’enfants après jeux, from Pictures at an Exhibition.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = yes }
+	}
+}
+
+song = {
+	name = "Russia/War/A.P. Borodin - Polovtsian March, from the opera Prince Igor, 1890.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Russia/War/A.P. Borodin - Symphony No.2 in C minor, I. Allegro moderato, 1873.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Russia/War/A.S. Dargomizhskij - Bolero, 1839.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Russia/War/A.S. Dargomizhskij - Kazachok (Cossack Dance), 1864.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Russia/War/M.A Balakirev - Symphony No. 1 in C major, IV. Finale Allegro Moderato.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Russia/War/M.I. Glinka - Chernomor_s March from the opera Ruslan and Lyudmila, 1838.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Russia/War/M.I. Glinka - Entr_acte to Act II. from Prince Kholmsky, 1840.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Russia/War/M.I. Glinka - Entr_acte to Act V. from Prince Kholmsky, 1840.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Russia/War/M.I. Glinka - Overture to tragedy Prince Kholmsky, 1840.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Russia/War/M.I. Glinka - Patriotic Song, 1833.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Russia/War/M.I. Glinka - Waltz-fantasy, 1839 - 1856.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Russia/War/M.I. Glinka -Entr_acte to Act III. from Prince Kholmsky, 1840.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Russia/War/M.P. Mussorgsky - Bydlo, from Pictures at an Exhibition, 1874.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Russia/War/M.P. Mussorgsky - Gnomus, from Pictures at an Exhibition, 1874.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Russia/War/M.P. Mussorgsky - Night on Bald Mountain, 1886.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Russia/War/M.P. Mussorgsky - Samuel Goldenberg and Schmuÿle, from Pictures at an Exhibition, 1874.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Russia/War/M.P. Mussorgsky - The Hut on Hen_s Legs (Baba Yaga), from Pictures at an Exhibition, 1874.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Russia/War/Tchaikovsky - Marche Slave - Auckland Philharmonia Orchestra.mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+song = {
+	name = "Russia/War/Farewell of Slavianka (Instrumental).mp3"
+	chance = {
+		modifier = { factor = 1 }
+		modifier = { factor = 0 NOT = { primary_culture = russian } }
+		modifier = { factor = 0 war = no }
+	}
+}
+
+
+
+
+
+
+
+
+
+
