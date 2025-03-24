@@ -8,7 +8,7 @@ country_event = {
 	is_triggered_only = yes
 	allow_multiple_instances = yes
 
-	option = {
+	option = { #Enable/Disable All Songs
 		name = "EVTOPTA74"
 		random_owned = {
 			limit = {
@@ -19,15 +19,18 @@ country_event = {
 			}
 			owner = {
 				set_country_flag = all_songs_enabled
-				set_country_flag = generic_songs_enabled
-				set_country_flag = asian_songs_enabled
-				set_country_flag = peruvian_songs_enabled
-				set_country_flag = bolivian_songs_enabled
+				set_country_flag = western_generic_songs_enabled
+				set_country_flag = east_asian_songs_enabled
 				set_country_flag = brazilian_songs_enabled
+				set_country_flag = peruvian_songs_enabled
+				set_country_flag = ecuadorian_songs_enabled
+				set_country_flag = bolivian_songs_enabled
 				set_country_flag = argentinian_songs_enabled
+				set_country_flag = spanish_songs_enabled
+				set_country_flag = mongolian_songs_enabled
+				set_country_flag = russian_songs_enabled
 				set_country_flag = song_bypass
 				set_country_flag = war_song_bypass
-				clr_country_flag = asian_songs_only
 				set_country_flag = setting_changed 
 				currently_disabled = { } 
 			}
@@ -42,12 +45,16 @@ country_event = {
 			}
 			owner = { 
 				clr_global_flag = all_songs_enabled
-				clr_country_flag = generic_songs_enabled
-				clr_country_flag = asian_songs_enabled
-				clr_country_flag = peruvian_songs_enabled
-				clr_country_flag = bolivian_songs_enabled
+				clr_country_flag = western_generic_songs_enabled
+				clr_country_flag = east_asian_songs_enabled
 				clr_country_flag = brazilian_songs_enabled
+				clr_country_flag = peruvian_songs_enabled
+				clr_country_flag = ecuadorian_songs_enabled
+				clr_country_flag = bolivian_songs_enabled
 				clr_country_flag = argentinian_songs_enabled
+				clr_country_flag = spanish_songs_enabled
+				clr_country_flag = mongolian_songs_enabled
+				clr_country_flag = russian_songs_enabled
 				clr_country_flag = song_bypass
 				clr_country_flag = war_song_bypass
 				set_country_flag = setting_changed
@@ -58,14 +65,17 @@ country_event = {
 		clr_country_flag = setting_changed
 		
 		set_country_flag = hidden_tooltip
-		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
-						owner = { country_event = 74 }
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = hidden_tooltip }
+			}
+			owner = { country_event = 74 }
 		}
 		clr_country_flag = hidden_tooltip
 	}
 
 	option = {
-		name = "EVTOPTC74"
+		name = "EVTOPTB74"
 		random_owned = {
 			limit = {
 				owner = { 
@@ -97,15 +107,18 @@ country_event = {
 		clr_country_flag = setting_changed
 		
 		set_country_flag = hidden_tooltip
-		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
-						owner = { country_event = 74 }
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = hidden_tooltip }
+			}
+			owner = { country_event = 74 }
 		}
 		clr_country_flag = hidden_tooltip
 		
 	}
 
 	option = {
-		name = "EVTOPTB74"
+		name = "EVTOPTC74"
 		random_owned = {
 			limit = {
 				owner = { 
@@ -137,48 +150,141 @@ country_event = {
 		clr_country_flag = setting_changed
 		
 		set_country_flag = hidden_tooltip
-		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
-						owner = { country_event = 74 }
+		random_owned = { 
+			limit = {
+				owner = { has_country_flag = hidden_tooltip }
+			}
+			owner = { country_event = 74 }
 		}
 		clr_country_flag = hidden_tooltip
 		
 	}
 
-	option = {
+	option = { # Refresh - Reset to Original
 		name = "EVTOPTD74"
-		random_owned = {
-			limit = {
-				owner = { 
-					NOT = { has_country_flag = asian_songs_enabled }
-					NOT = { has_country_flag = setting_changed } 
-				}
-			}
-			owner = {
-				set_country_flag = asian_songs_enabled
-				set_country_flag = setting_changed 
-				currently_disabled = { } 
-			}
-		}
+
+		clr_country_flag = western_generic_songs_enabled
+		clr_country_flag = east_asian_songs_enabled
+		clr_country_flag = brazilian_songs_enabled
+		clr_country_flag = peruvian_songs_enabled
+		clr_country_flag = ecuadorian_songs_enabled
+		clr_country_flag = bolivian_songs_enabled
+		clr_country_flag = argentinian_songs_enabled
+		clr_country_flag = spanish_songs_enabled
+		clr_country_flag = mongolian_songs_enabled
+		clr_country_flag = russian_songs_enabled
+		clr_country_flag = song_bypass
+		clr_country_flag = war_song_bypass
+		set_country_flag = setting_changed
 
 		random_owned = {
 			limit = {
-				owner = { 
-					has_country_flag = asian_songs_enabled 
-					NOT = { has_country_flag = setting_changed } 
+				owner = {
+					NOT = { is_culture_group = east_slavic }
+					NOT = { primary_culture = alaskan }
+					NOT = { primary_culture = brazilian }
+					NOT = { primary_culture = peruvian }
+					NOT = { primary_culture = bolivian }
+					NOT = { primary_culture = argentinian }
+					NOT = { is_culture_group = east_asian }
+					NOT = { is_culture_group = far_east_asian }
+					NOT = { is_culture_group = southeast_asian }
+					NOT = { is_culture_group = central_asian }
+					NOT = { primary_culture = tamil }
 				}
 			}
-			owner = { 
-				clr_global_flag = asian_songs_enabled
-				set_country_flag = setting_changed
-				currently_enabled = { } 
+			owner = { set_country_flag = western_generic_songs_enabled }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					OR = {
+						is_culture_group = east_asian
+						is_culture_group = far_east_asian
+						is_culture_group = southeast_asian
+						is_culture_group = central_asian
+						primary_culture = tamil
+					}
+				}
 			}
+			owner = { set_country_flag = east_asian_songs_enabled }
+		}
+		random_owned = { 
+			limit = {
+				owner = {
+					primary_culture = brazilian
+				}
+			}
+			owner = { set_country_flag = brazilian_songs_enabled }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					primary_culture = peruvian
+				}
+			}
+			owner = { set_country_flag = peruvian_songs_enabled }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					primary_culture = ecuadorian
+				}
+			}
+			owner = { set_country_flag = ecuadorian_songs_enabled }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					primary_culture = bolivian
+				}
+			}
+			owner = { set_country_flag = bolivian_songs_enabled }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					primary_culture = argentinian
+				}
+			}
+			owner = { set_country_flag = argentinian_songs_enabled }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					primary_culture = spanish
+				}
+			}
+			owner = { set_country_flag = spanish_songs_enabled }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					primary_culture = mongol
+				}
+			}
+			owner = { set_country_flag = mongolian_songs_enabled }
+		}
+		random_owned = { 
+			limit = {
+				owner = {
+					OR = {
+						is_culture_group = east_slavic
+						primary_culture = alaskan
+					}
+				}
+			}
+			owner = { set_country_flag = russian_songs_enabled }
 		}
 
 		clr_country_flag = setting_changed
 		
 		set_country_flag = hidden_tooltip
-		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
-						owner = { country_event = 74 }
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = hidden_tooltip }
+			}
+			owner = { country_event = 74 }
 		}
 		clr_country_flag = hidden_tooltip
 	}
@@ -204,12 +310,12 @@ country_event = {
 		random_owned = {
 			limit = {
 				owner = { 
-					NOT = { has_country_flag = generic_songs_enabled }
+					NOT = { has_country_flag = western_generic_songs_enabled }
 					NOT = { has_country_flag = setting_changed } 
 				}
 			}
 			owner = {
-				set_country_flag = generic_songs_enabled
+				set_country_flag = western_generic_songs_enabled
 				set_country_flag = setting_changed 
 				currently_disabled = { } 
 			}
@@ -218,12 +324,12 @@ country_event = {
 		random_owned = {
 			limit = {
 				owner = { 
-					has_country_flag = generic_songs_enabled 
+					has_country_flag = western_generic_songs_enabled 
 					NOT = { has_country_flag = setting_changed } 
 				}
 			}
 			owner = { 
-				clr_global_flag = generic_songs_enabled
+				clr_global_flag = western_generic_songs_enabled
 				set_country_flag = setting_changed
 				currently_enabled = { } 
 			}
@@ -232,8 +338,11 @@ country_event = {
 		clr_country_flag = setting_changed
 		
 		set_country_flag = hidden_tooltip
-		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
-						owner = { country_event = 75 }
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = hidden_tooltip }
+			}
+			owner = { country_event = 75 }
 		}
 		clr_country_flag = hidden_tooltip
 	}
@@ -271,8 +380,11 @@ country_event = {
 		clr_country_flag = setting_changed
 		
 		set_country_flag = hidden_tooltip
-		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
-						owner = { country_event = 75 }
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = hidden_tooltip }
+			}
+			owner = { country_event = 75 }
 		}
 		clr_country_flag = hidden_tooltip
 	}
@@ -310,8 +422,11 @@ country_event = {
 		clr_country_flag = setting_changed
 		
 		set_country_flag = hidden_tooltip
-		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
-						owner = { country_event = 75 }
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = hidden_tooltip }
+			}
+			owner = { country_event = 75 }
 		}
 		clr_country_flag = hidden_tooltip
 		
@@ -350,8 +465,11 @@ country_event = {
 		clr_country_flag = setting_changed
 		
 		set_country_flag = hidden_tooltip
-		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
-						owner = { country_event = 75 }
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = hidden_tooltip }
+			}
+			owner = { country_event = 75 }
 		}
 		clr_country_flag = hidden_tooltip
 	}
@@ -405,8 +523,11 @@ country_event = {
 		clr_country_flag = setting_changed
 		
 		set_country_flag = hidden_tooltip
-		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
-						owner = { country_event = 76 }
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = hidden_tooltip }
+			}
+			owner = { country_event = 76 }
 		}
 		clr_country_flag = hidden_tooltip
 	}
@@ -416,12 +537,12 @@ country_event = {
 		random_owned = {
 			limit = {
 				owner = { 
-					NOT = { has_country_flag = asian_songs_only }
+					NOT = { has_country_flag = east_asian_songs_enabled }
 					NOT = { has_country_flag = setting_changed } 
 				}
 			}
 			owner = {
-				set_country_flag = asian_songs_only
+				set_country_flag = east_asian_songs_enabled
 				set_country_flag = setting_changed 
 				currently_disabled = { } 
 			}
@@ -430,12 +551,12 @@ country_event = {
 		random_owned = {
 			limit = {
 				owner = { 
-					has_country_flag = asian_songs_only 
+					has_country_flag = east_asian_songs_enabled 
 					NOT = { has_country_flag = setting_changed } 
 				}
 			}
 			owner = { 
-				clr_global_flag = asian_songs_only
+				clr_global_flag = east_asian_songs_enabled
 				set_country_flag = setting_changed
 				currently_enabled = { } 
 			}
@@ -444,8 +565,11 @@ country_event = {
 		clr_country_flag = setting_changed
 		
 		set_country_flag = hidden_tooltip
-		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
-						owner = { country_event = 76 }
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = hidden_tooltip }
+			}
+			owner = { country_event = 76 }
 		}
 		clr_country_flag = hidden_tooltip
 	}
