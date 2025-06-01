@@ -349,7 +349,7 @@ song = {
 }
 
 song = {
-	name = "Latin America/Argentina/Suite Norteña - Chamamé.mp3"
+	name = "Latin America/Argentina/Suite Nortenha - Chamame.mp3"
 	chance = {
 		modifier = { factor = 2 }
 		modifier = { factor = 0 war = yes NOT = { has_country_flag = warsong_bypass } }
@@ -364,7 +364,7 @@ song = {
 } 
 
 song = {
-	name = "Latin America/Argentina/Suite Norteña, Chacarera.mp3"
+	name = "Latin America/Argentina/Suite Nortenha, Chacarera.mp3"
 	chance = {
 		modifier = { factor = 2 }
 		modifier = { factor = 0 war = yes NOT = { has_country_flag = warsong_bypass } }
@@ -385,7 +385,7 @@ song = {
 } 
 
 song = {
-	name = "Latin America/Argentina/Vidala, Suite N1 de Impresiones Norteñas.mp3"
+	name = "Latin America/Argentina/Vidala, Suite N1 de Impresiones Nortenhas.mp3"
 	chance = {
 		modifier = { factor = 2 }
 		modifier = { factor = 0 war = yes NOT = { has_country_flag = warsong_bypass } }
@@ -533,7 +533,7 @@ song = {
 }
 
 song = {
-	name = "Brazil/Cesar Guerra-Peixe, Clóvis Pereira - Mourão.mp3"
+	name = "Brazil/Cesar Guerra-Peixe, Clovis Pereira - Mourao.mp3"
 	chance = {
 		modifier = { factor = 0.5 }
 		modifier = { factor = 0 war = yes NOT = { has_country_flag = warsong_bypass } }
